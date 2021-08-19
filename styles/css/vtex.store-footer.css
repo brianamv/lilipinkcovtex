@@ -1,0 +1,26 @@
+
+.flexRowContent--menu-row {
+  padding-right: 24px;
+  background-color: #e4147e;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+  background-color:  #e4147e;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+ }
+ .socialNetworksContainer{
+  justify-content: center;
+  display: flex;
+}
+
+.socialNetworksImage--facebook{
+  color:  #e4147e;
+}
+
+.flexRow .flexRow--menu-row {
+   margin-bottom: 400px;
+}

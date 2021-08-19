@@ -1,0 +1,10 @@
+.product-identifier--productReference {
+  margin-bottom: 1rem;
+  font-size: smaller;
+}
+.product-identifier__label{
+  display: none; 
+}
+.product-identifier__separator::before {
+  content: "Ref";
+}

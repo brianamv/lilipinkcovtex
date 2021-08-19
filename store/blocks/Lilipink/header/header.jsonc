@@ -1,0 +1,358 @@
+{
+  "element-wrapper.lilipink": {
+    "children": ["header"],
+    "props": {
+      "blockClass": "header-lilipink"
+    }
+  },
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile#lili"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile#lili"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      //"flex-layout.row#1-desktop",
+      //"flex-layout.row#2-desktop",
+      "flex-layout.row#3-desktop",
+      "sticky-layout#boton-flotante",
+      //"sticky-layout#4-desktop",
+      "flex-layout.row#5-desktop",
+      "flex-layout.row#4-desktop"
+      //"flex-layout.row#4-desktop",
+      //"flex-layout.row#6-desktop"
+    ]
+  },
+  "flex-layout.row#1-desktop": {
+    "children": [
+      "telemarketing"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#2-desktop": {
+    "children": [
+      "notification.bar#home"
+    ],
+    "props": {
+      "fullWidth": "true"
+    }
+  },
+  "notification.bar#home": {
+    "props": {
+      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!!!"
+    }
+  },
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "marginTop": 6,
+      "marginBottom": 6
+    },
+    "children": [
+      //"vtex.menu@2.x:menu#institutional",
+      //"flex-layout.row#botonesHeader",
+      "flex-layout.col#spacer",
+      "vtex.menu@2.x:menu#websites"
+    ]
+  },
+  "flex-layout.row#botonesHeader": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#btnLiliPink",
+      "image#btnYoi"
+    ]
+  },
+  "image#btnLiliPink": {
+    "props": {
+      "src": "assets/buttonLP1.jpg",
+      "href": "#",
+      "width": "55%"
+    }
+  },
+  "image#btnYoi": {
+    "props": {
+      "src": "assets/buttonYoi1.jpg",
+      "href": "#",
+      "width": "55%"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#4-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": []
+  },
+  "flex-layout.row#5-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "header-row#1-desktop",
+      "flex-layout.col#spacer",
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      //"locale-switcher",
+      "header-row#3-desktop"
+    ]
+  },
+  "header-row#1-desktop": {
+    "children": [
+      "search-bar"
+    ]
+  },
+  "header-row#3-desktop": {
+    "children": [
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "iconLabel": "Mi Cuenta",
+      "termsAndConditions": "Al ingresar aceptas los [**términos y condiciones**](/Condiciones-y-restricciones)",
+      "logInButtonBehavior": "popover"
+    }
+  },
+  "search-bar": {
+    "props": {
+      "containerMode": "container"
+    }
+  },
+
+  "flex-layout.row#6-desktop": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#spacer",
+      "flex-layout.col#logo1",
+      "menu-item#linkImperdibles",
+      "rich-text#linkImperdibles",
+      "flex-layout.col#logowhatlilipink",
+      "link.product#whatsapp",
+      "flex-layout.col#spacer"
+    ]
+  },
+  "flex-layout.col#logo1": {
+    "props": {
+      "blockClass": "logo1",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#logo1"
+    ]
+  },
+  "image#logo1": {
+    "props": {
+      "blockClass": "Imagenetiqueta",
+      "src": "assets/label.png"
+    }
+  },
+
+  "menu-item#linkImperdibles": {
+    "props": {
+      "text": "Encuentra Nuestros Imperdibles AQUÍ",
+      "href": "/brasieres",
+      "blockClass": "Encuentra"
+    }
+  },
+  "rich-text#linkImperdibles": {
+    "props": {
+      "text": "|",
+      "blockClass": "Encuentra"
+    }
+  },
+  "flex-layout.col#logowhatlilipink": {
+    "props": {
+      "blockClass": "logo2",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#logo2"
+    ]
+  },
+  "image#logo2": {
+    "props": {
+      "blockClass": "Imagenetiqueta",
+      "src": "assets/logo-wh.png",
+      "link": {
+        "url": "https://api.whatsapp.com/send/?phone=5715140339&text=Hola+Lili+Pink&app_absent=0",
+        "openNewTab": true
+      }
+    }
+  },
+  /*TEXTO DE WHATAPPS lilipink*/
+  
+  "link.product#whatsapp": {
+    "props": {
+      "href": "https://wa.me/5715140339?text=Hola Lili Pink",
+      "target": "_blank"
+    },
+    "children": [
+      "rich-text#linkPedidoWhatsapp"
+    ]
+  },
+  "link.product#whatsapp-yoi": {
+    "props": {
+      "href": "https://wa.me/5715140339?text=Hola Yoi",
+      "target": "_blank"
+    },
+    "children": [
+      "rich-text#linkPedidoWhatsapp"
+    ]
+  },
+  "rich-text#linkPedidoWhatsapp": {
+    "props": {
+      "text": "Haz tu pedido vía Whatsapp AQUÍ",
+      "blockClass": "Encuentra"
+    }
+  },
+  /**/
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#logodesktop"
+    ]
+  },
+  "image#logodesktop": {
+    "props": {
+      "src": "assets/logo-header.png",
+      "maxHeight": "35px",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "header-layout.mobile#lili": {
+    "children": [
+      "sticky-layout#1-mobile-lili",      
+      "sticky-layout#boton-flotante"
+    ]
+  },
+  "sticky-layout#1-mobile-lili": {
+    "children": [
+      "flex-layout.row#1-mobile-lili"
+    ]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "menuPrincipalLilipink",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#category-menu"
+    ]
+  },
+  "category-menu": {
+    "props": {
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "departments": []
+    }
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
+  },
+  "flex-layout.row#1-mobile-lili": {
+    "children": [
+      "drawer#lili",
+      //"logo#mobilelili",
+      "search-bar#lilipink",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "search-bar#lilipink": {
+    "props": {
+      "compactMode": true
+    }
+
+  },
+  
+  
+  "logo#mobilelili": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo-header.png",
+      "width": "70"
+    }
+  },
+  "flex-layout.row#lilipink-yoi": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "link#Link",
+      "link#yoi"
+    ]
+  },
+  "link#Link": {
+    "props": {
+      "href": "/",
+      "label": "Lilipink"
+    }
+  },
+  "link#yoi": {
+    "props": {
+      "href": "/",
+      "label": "Yoi"
+    }
+  }
+}

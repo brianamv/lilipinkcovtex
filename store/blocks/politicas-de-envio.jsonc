@@ -1,0 +1,200 @@
+{
+  "store.custom.políticas-de-envio": {
+    "blocks": [
+      "image#bannerpoliticasenvio",
+      "flex-layout.row#politicasenvio"
+    ]
+  },
+  "image#bannerpoliticasenvio": {
+    "props": {
+      "src": "assets/politicas-envio/hola-lililover.png",
+      "width": "100%"
+
+    }
+  },
+  "flex-layout.row#politicasenvio": {
+    "props": {
+      "blockClass": "margenLanding"
+    },
+    "children": [
+      "flex-layout.col#politicasenvio"
+    ]
+  },
+  "flex-layout.col#politicasenvio": {
+    "children": [
+      "rich-text#politicasenvio",
+      "rich-text#parrafo1",
+      "rich-text#seguimientopedidos",
+      "rich-text#parrafo2",
+      "flex-layout.row#paso1",
+      "rich-text#parrafo3",
+      "flex-layout.row#paso2",
+      "rich-text#parrafo4",
+      "flex-layout.row#paso3",
+      "rich-text#parrafo5",
+      "flex-layout.row#paso4",
+      "rich-text#parrafo6",
+      "flex-layout.row#paso5",
+      "rich-text#parrafo7",
+      "flex-layout.row#paso6"
+    ]
+  },
+  "rich-text#politicasenvio": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "POLÍTICAS DE ENVÍO",
+      "blockClass": "titulo-peque-landing"
+
+    }
+  },
+  "rich-text#parrafo1": {
+    "props": {
+      "text": "Una vez sea confirmado el pago del pedido, los productos serán enviados unicamente al territorio colombiano vía mensajería física dentro de los tiempos establecidos por cada modalidad a continuación señalada y a través de la cual se hace la compra:\n\n**Rappi:** 24 horas\n**Loro:** 24 a 36 horas\n**WhatsApp:** 2 días\n**Página web:** 3-5 días hábiles envíos locales (bogotá, medellín, cali) y 5-8 días hábiles envíos nacionales con restricción de envíos a destinos especiales: Leticia, Andes Nariño y San Andres.\n\nEl envío de los productos se realizará únicamente dentro del territorio colombiano, a través de correo certificado, bajo ninguna circunstancia un pedido podrá ser entregado después de los treinta días calendario, contados a partir de confirmado el pago del pedido, siempre y cuando no medie ningún caso fortuito o fuerza mayor.\nEl lugar de envío del pedido será la dirección señalada por el usuario. Se entiende que cualquier persona que se encuentre en el domicilio donde se debe realizar la entrega, se encuentra debidamente autorizado por el cliente para recibir su pedido, por lo que la empresa queda exonerada de cualquier responsabilidad al momento de la entrega, siempre y cuando la misma se haga en el domicilio registrado al momento de la compra; esto incluye cuando el pedido es entregado a guardas de seguridad, recepciones o porteros.\nLa empresa transportadora tendrá la obligación de hacer máximo dos intentos de entrega de los productos adquiridos. En caso que los intentos de entrega resulten infructuosos, retornarán los bienes a la empresa y se procederá a la devolución de los dineros consignados, salvo el valor del envío, sin ningún tipo de interés, retribución o suma adicional y sin importar la causa u origen que pueda tener la devolución. Igualmente se considera entrega infructuosa si el destinatario del producto es menor de catorce (14) años y no se encuentra acompañado de un padre, tutor o acudiente que firme junto con el destinatario el recibido del producto.",
+      "blockClass": "texto-landing"
+
+    }
+  },
+  "rich-text#seguimientopedidos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "SEGUIMIENTO A ESTADO DE PEDIDOS",
+      "blockClass": "titulo-peque-landing"
+
+    }
+  },
+  "rich-text#parrafo2": {
+    "props": {
+      "text": "Para hacer el seguimiento de su pedido podrá ingresar a su cuenta de la siguiente manera:\n- Ingresar usuario y contraseña",
+      "blockClass": "texto-landing"
+
+    }
+  },
+  "flex-layout.row#paso1":{
+      "props":{
+          "blockClass":"politicasenvio"
+      },
+      "children":[
+        "image#paso1"
+      ]
+  },
+  "image#paso1": {
+    "props": {
+      "src": "assets/politicas-envio/paso1.jpg",
+      "width":900
+
+    }
+  },
+  "rich-text#parrafo3": {
+    "props": {
+      "text": "- Por defecto la ventana mostrará el estado de los pedidos recientes",
+      "blockClass": "texto-landing"
+
+    }
+  },
+  "flex-layout.row#paso2":{
+      "props":{
+          "blockClass":"politicasenvio"
+      },
+      "children":[
+        "image#paso2"
+      ]
+  },
+  "image#paso2": {
+    "props": {
+      "src": "assets/politicas-envio/paso2.jpg",
+      "width":900
+
+    }
+  },
+  "rich-text#parrafo4": {
+    "props": {
+      "text": "De lo contrario por favor seleccionar en el menú lateral la opción “Mis Pedidos”, los estados que te mostrará la plataforma son los siguientes:\n**BORRADOR:** Pedido que no se ha finalizado, se tienen productos en el carrito de compras pero no se ha realizado proceso de checkout, la mercancía estará separada por un lapso de 2 horas.\n**VALIDACIÓN DE PAGO:** El pago del pedido aún no ha sido verificado, el tiempo para confirmar pagos en linea es inmediato y el tiempo para pagos en efectivo (efecty, baloto) es de máximo 24 horas.\n**LIBERADO:** El pago ha sido validado, la mercancía ha sido separada y el pedido inicia el proceso de alistamiento.\n**FACTURADO:** El pedido está pendiente de ser despachado.\n**DESPACHADO:** El pedido ha sido enviado.\n**CANCELADO:** El pedido no se finalizo o no ha validado un pago exitoso.\n\n- Para ampliar la selección del pedido da click en el icono “+” ubicado en el costado derecho",
+      "blockClass": "texto-landing"
+
+    }
+  },
+  "flex-layout.row#paso3":{
+      "props":{
+          "blockClass":"politicasenvio"
+      },
+      "children":[
+        "image#paso3"
+      ]
+  },
+  "image#paso3": {
+    "props": {
+      "src": "assets/politicas-envio/paso3.jpg",
+      "width":900
+
+
+    }
+  },
+  "rich-text#parrafo5": {
+    "props": {
+      "text": "- Seleccionar “Ver Detalles”, por defecto mostrará la pestaña “Info básica” en la que encontrarás la información del pedido donde es importante resaltar que el campo Modificación corresponde a la fecha y hora en la que el pedido fue pago, así mismo encontraras las direcciones de envío y facturación especificadas.",
+      "blockClass": "texto-landing"
+
+    }
+  },
+  "flex-layout.row#paso4":{
+      "props":{
+          "blockClass":"politicasenvio"
+      },
+      "children":[
+        "image#paso4"
+      ]
+  },
+  "image#paso4": {
+    "props": {
+      "src": "assets/politicas-envio/paso4.jpg",
+      "width":900
+
+    }
+  },
+  "rich-text#parrafo6": {
+    "props": {
+      "text": "- En la pestaña de “seguimiento de pedidos” encontrarás la información relacionada con el despacho de tu pedido como: Número de guía y el estado del mismo.",
+      "blockClass": "texto-landing"
+
+    }
+  },
+  "flex-layout.row#paso5":{
+      "props":{
+          "blockClass":"politicasenvio"
+      },
+      "children":[
+        "image#paso5"
+      ]
+  },
+  "image#paso5": {
+    "props": {
+      "src": "assets/politicas-envio/paso5.jpg",
+      "width":900
+
+    }
+  },
+  "rich-text#parrafo7": {
+    "props": {
+      "text": "- En la pestaña “Detalle del pedido” encontrarás el resumen de tu compra indicando los items, precios, descuentos y costos de envio",
+      "blockClass": "texto-landing"
+
+    }
+  },
+  "flex-layout.row#paso6":{
+      "props":{
+          "blockClass":"politicasenvio"
+      },
+      "children":[
+        "image#paso6"
+      ]
+  },
+  "image#paso6": {
+    "props": {
+      "src": "assets/politicas-envio/paso6.jpg",
+      "width":900
+
+    }
+  }
+}

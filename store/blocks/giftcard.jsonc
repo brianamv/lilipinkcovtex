@@ -1,0 +1,25 @@
+{
+    "store.custom#giftcard":{
+        "blocks":[ 
+            "flex-layout.row#banner-negocio"
+        ]
+
+    },
+    "flex-layout.row#banner-negocio":{
+        "children":[
+            "image#banner-principal",
+            "rich-text#titulo-negocio"
+        ]
+    },
+    "image#banner-principal":{
+        "props":{
+            "scr":"assets/banner1.jpg"
+        }
+    },
+    "rich-text#titulo-negocio":{
+        "props":{
+            "text":"Texto Prueba"
+        }
+    }
+}
+   

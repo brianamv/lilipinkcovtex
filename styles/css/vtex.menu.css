@@ -1,0 +1,333 @@
+.styledLinkContent--Buscar {
+  /*font-weight: bold;*/
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: -10px !important;
+  color: black;
+}
+
+/*.styledLinkContent--Vertodo,
+.styledLinkContent--lomas_vendido,
+.styledLinkContent--nuevosbrasieresybralettes,
+.styledLinkContent--buscar,
+.styledLinkContent--brasieres-Ofertas,
+.styledLinkContent--brasieres-PushUp{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}*/
+
+
+.styledLinkContent--estilobrallet {
+  font-weight: bold;
+}
+
+.styledLinkContent--estilobrallet {
+  font-weight: bold;
+}
+
+.styledLinkContent--Tipo {
+  font-weight: bold;
+  /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+}
+
+.styledLinkContent--BeneficioBrasieres {
+  font-weight: bold;
+}
+
+.styledLinkContent--BeneficioBrasieres {
+  font-weight: bold;
+  color: red;
+
+}
+
+.styledLinkContent--GENERA-INGRESOS {
+  color: #e4147e;
+}
+
+
+
+.styledLinkContent--Links-de-interes {
+
+  color: white;
+}
+
+.styledLinkContent--Quienesomos {
+
+  color: white;
+}
+
+.styledLinkContent--Preguntasfrecuentes {
+
+  color: white;
+}
+
+.styledLinkContent--Promo {
+
+  color: white;
+}
+
+.styledLinkContent--Guia {
+
+  color: white;
+}
+
+.styledLinkContent--politica {
+
+  color: white;
+}
+
+.styledLinkContent--condiciones {
+
+  color: white;
+}
+
+.styledLinkContent--Devoluciones {
+
+  color: white;
+}
+
+.styledLinkContent--Privacidad {
+
+  color: white;
+}
+
+.styledLinkContent--Trabaja {
+
+  color: white;
+}
+
+.styledLinkContent--Cliente {
+
+  color: white;
+}
+
+.styledLinkContent--escribenos {
+
+  color: white;
+}
+
+.styledLinkContent--Linea {
+
+  color: white;
+}
+
+.styledLinkContent--Telefono {
+
+  color: white;
+}
+
+.styledLinkContent--3105756438 {
+
+  color: white;
+}
+
+.styledLinkContent {
+  font-family: 'Monserrat-bold';
+}
+
+.styledLinkContent:hover {
+  font-weight: bolder;
+  font-family: 'Monserrat-bold';
+}
+
+
+
+.menuItem .menuItem--GENERA-INGRESOS {
+  display: none;
+}
+
+.menuItem--titulosMenu {
+  font-family: 'Monserrat-bold';
+  color: #757575 !important;
+}
+
+.styledLinkContent--itemMenu {
+  margin-top: 0.1rem !important;
+  margin-bottom: 0.1rem !important;
+  font-family: 'Monserrat-semibold' !important;
+  font-size: 0.8rem !important;
+  color: #757575 !important;
+}
+
+.styledLinkContent--itemMenu:hover {
+  color: #e4147e !important;
+}
+
+.styledLinkContent--ItemMenuYoi {
+  margin-top: 0.1rem !important;
+  margin-bottom: 0.1rem !important;
+  font-family: 'Monserrat-semibold' !important;
+  font-size: 0.8rem !important;
+  color: #757575 !important;
+}
+
+.styledLinkContent--ItemMenuYoi:hover {
+  color: #08AB97 !important;
+}
+
+
+
+
+/* ajuste submenu segun pantalla
+.submenu--submenu {
+  justify-content: left;
+}
+
+@media (min-width:1700px) {
+  .submenu--submenu {
+    padding-left: 18% !important;
+  }
+}
+@media (min-width:900px) {
+  .submenu--submenu {
+    padding-left: 6% ;
+  }
+}
+
+.submenu--submenu {
+  padding-left: 1% ;
+} */
+.styledLinkContent--Encuentra {
+  color: #727272;
+  font-family: 'Monserrat-bold';
+  font-size: 17px;
+  padding: 10px 0;
+}
+
+.styledLinkContent--items-footer {
+  font-family: "Monserrat-regular";
+  color: #fff;
+}
+
+.styledLinkContent--titulos-footer {
+  font-family: "Monserrat-bold";
+  color: #fff;
+}
+
+.accordionIcon--titulos-footer {
+  color: #fff;
+}
+
+.styledLinkContent--EncuentraMobile1::before {
+  content: "\e900";
+  font-size: 1.2rem;
+  font-family: 'iconos-extra';
+  color: #757575;
+  margin-right: 6px;
+
+}
+
+.styledLinkContent--EncuentraMobile2::before {
+  content: "\ea93";
+  font-size: 1.2rem;
+  font-family: 'iconos-extra';
+  color: #757575;
+  margin-right: 6px;
+
+}
+
+.menuItem--EncuentraMobile1 {
+  padding: 6px;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.menuItem--EncuentraMobile2 {
+  padding: 6px;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.menuContainerNav--menu-movil{
+  width: 100%;
+}
+.styledLinkContent--movil-extra{
+  color: #757575;
+  font-size: 0.9rem;
+  line-height: 1;
+  text-transform: uppercase;
+  margin: 1rem 0;
+}
+.menuItem--movil-extra {
+  padding: 0;
+  background-color: #f0f0f0;
+
+}
+.menuItem--itemMenu{
+  width: 150px;
+}
+
+@media screen and (max-width:900px) {
+  .styledLink--titulosMenu {
+    font-size: 2.5rem;
+  }
+}
+
+/*estilos para el menu*/
+@media screen and (max-width: 1350px) {
+  .styledLinkContent--titulosMenu {
+    color: #757575;
+    font-size: 11px !important;
+  
+  }
+  .submenu--submenu {
+    width: 1200px !important;
+    margin: 0 auto;
+  }
+  
+  .styledLinkContent--titulosMenu:hover {
+    color: #e4147e;
+    font-size: 11px !important;
+  
+  }
+  
+  .styledLinkContent--titulosMenuYoi {
+    color: #757575;
+    font-size: 11px !important;
+  
+  }
+  
+  .styledLinkContent--titulosMenuYoi:hover {
+    color: #08AB97;
+    font-size: 11px !important;
+  
+  }
+  
+  .styledLinkContent--destacado {
+    color: #e4147e;
+    font-size: 11px !important;
+  
+  }
+}
+.styledLinkContent--titulosMenu {
+  color: #757575;
+  font-size: 13px;
+
+}
+
+.styledLinkContent--titulosMenu:hover {
+  color: #e4147e;
+  font-size: 13px;
+
+}
+
+.styledLinkContent--titulosMenuYoi {
+  color: #757575;
+  font-size: 13px;
+
+}
+
+.styledLinkContent--titulosMenuYoi:hover {
+  color: #08AB97;
+  font-size: 13px;
+
+}
+
+.styledLinkContent--destacado {
+  color: #e4147e;
+  font-size: 13px;
+
+}
+.submenu--submenu {
+  width: 1336px ;
+  margin: 0 auto;
+}

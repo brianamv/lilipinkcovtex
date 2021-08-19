@@ -1,0 +1,391 @@
+.filter {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.filtersWrapper {
+  padding-bottom: 50%;
+}
+
+.galleryLayoutOptionButton {
+  background-color: #F0F0F0;
+  color: #3F3F40;
+  padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+}
+
+.galleryLayoutOptionButton--selected {
+  background-color: #3F3F40;
+  color: #FFFFFF;
+}
+
+.galleryLayoutSwitcher {
+  border-radius: 4px 4px 4px 4px;
+  justify-content: center;
+  overflow: hidden;
+  width: auto !important;
+  align-self: center;
+}
+
+.galleryItem--list {
+  border-bottom: 1px #E7E9EE solid;
+}
+
+.filter__container--specificationFilter_97 {
+  display: none;
+}
+
+.filterMessage {
+  display: none;
+}
+
+.filterItem .filterItem--Lilipink {
+  margin-top: 10%;
+}
+
+.checkbox__input {
+  background-color: transparent;
+  border: none;
+}
+
+.filterItem :global(.vtex-checkbox__inner-container) {
+  background-color: transparent;
+  border: none;
+}
+
+.filter__container.filter__container--specificationFilter_96 {
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.filterItem.filterItem--32B {
+  display: inline-block;
+  border: #000 solid 2px;
+  width: 65px;
+  height: 40px;
+  margin: 5px 3px 1px 1px;
+}
+
+.filterItem.filterItem--34B {
+  display: inline-block;
+  border: #000 solid 2px;
+  width: 65px;
+  height: 40px;
+  margin: 5px 3px 1px 1px;
+}
+
+.filterItem.filterItem--36B {
+  display: inline-block;
+  border: #000 solid 2px;
+  width: 65px;
+  height: 40px;
+  margin: 5px 3px 1px 1px;
+}
+
+.filterItem.filterItem--38B {
+  display: inline-block;
+  border: #000 solid 2px;
+  width: 65px;
+  height: 40px;
+  margin: 5px 3px 1px 1px;
+}
+
+.filterItem.filterItem--32C {
+  display: inline-block;
+  border: #000 solid 2px;
+  width: 65px;
+  height: 40px;
+  margin: 5px 3px 1px 1px;
+}
+
+.filterItem.filterItem--32C {
+  display: inline-block;
+  border: #000 solid 2px;
+  width: 65px;
+  height: 40px;
+  margin: 5px 3px 1px 1px;
+}
+
+.filterItem.filterItem--38C {
+  display: inline-block;
+  border: #000 solid 2px;
+  width: 65px;
+  height: 40px;
+  margin: 5px 3px 1px 1px;
+}
+
+.filterItem.filterItem--36DD {
+  display: inline-block;
+  border: #000 solid 2px;
+  width: 65px;
+  height: 40px;
+  margin: 5px 3px 1px 1px;
+}
+
+.filterItem.filterItem--36DD {
+  display: inline-block;
+  border: #000 solid 2px;
+  width: 65px;
+  height: 40px;
+  margin: 5px 3px 1px 1px;
+}
+
+.filterItem.filterItem--38D {
+  display: inline-block;
+  border: #000 solid 2px;
+  width: 65px;
+  height: 40px;
+  margin: 5px 3px 1px 1px;
+}
+
+.filtersWrapper {
+  border-bottom-style: none;
+  border-bottom-width: 0;
+  border-color: #FFFFFF;
+}
+
+.bb {
+  border-bottom-style: none;
+  border-bottom-width: 0;
+
+}
+
+.b--muted-4 {
+  border-color: #FFFFFF;
+
+}
+
+.filter__container--specificationFilter_90 .fiterItem {
+
+  display: inline-block;
+  width: auto;
+  height: auto;
+  border: 2px solid #757575;
+  font-size: 15px;
+  align-items: center;
+  padding: 5px 7px 5px 0;
+  margin: 5px 5px 5px 5px;
+  
+}
+
+.filter__container--specificationFilter_91 {
+   display:none;
+}
+
+
+
+/* estilos filtro de tallas */
+.filter__container--specificationFilter_90 .filterItem {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  border: 1px solid #f2f4f5;
+  font-size: 15px;
+  align-items: center;
+  padding: 5px 7px 5px 0;
+  margin: 5px 5px 5px 5px;
+  border-radius: 3px;
+}
+
+.filter__container--specificationFilter_93 {
+   display:none;
+
+
+}
+
+/*.filterAccordionItemBox--color {
+   display:none;
+}*/
+
+/*.filterItem :global(.vtex-checkbox__inner-container) {
+  background-color:transparent;
+  border:none;
+}
+
+.filterItem.filterItem--Negro {
+  display: inline-block;
+  background-image:url('/arquivos/ids/155585/negro.jpg');
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  margin: 1rem .25rem 0;
+  font-family: 'Barlow Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-indent: -99999px;
+  border-radius: 100%;
+}
+
+.filterItem.filterItem--Azul {
+  display: inline-block;
+  background-image:url('/arquivos/ids/155582/azul.jpg');
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  margin: 1rem .25rem 0;
+  font-family: 'Barlow Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-indent: -99999px;
+  border-radius: 100%;
+}
+.filterItem.filterItem--Pink {
+  display: inline-block;
+  background-image:url('/arquivos/ids/155586/rosado.jpg');
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  margin: 1rem .25rem 0;
+  font-family: 'Barlow Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-indent: -99999px;
+  border-radius: 100%;
+}
+.filterItem.filterItem--Estampado {
+  display: inline-block;
+  background-image:url('/arquivos/ids/155584/estampado2.jpg');
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  margin: 1rem .25rem 0;
+  font-family: 'Barlow Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-indent: -99999px;
+  border-radius: 100%;
+}*/
+.filter__container--c .filterTitle{
+  font-size: 0px;
+}
+.filter__container--specificationFilter_90 :global(.vtex-checkbox__label){
+ color: #757575;
+}
+.filter__container--specificationFilter_18 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_19 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_20 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_21 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_22 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_23 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_24 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_25 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_26 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--b {
+  color: #757575;
+  display: none;
+ }
+ .filter__container--specificationFilter_44 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_45 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_46 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_47 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_48 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_49 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_50 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_51 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_52 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_53 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_54 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_92 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_93 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_94 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_95 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_96 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_97 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_98 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_99 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_100 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_101 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_102 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_103 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .categoryGroup .categoryItemName{
+   color: #757575;
+ }
+ .filterPopupTitle{
+   color: #757575;
+   font-family: 'Monserrat-bold';
+ }
+ .caretIcon{
+   color: #757575;
+ }
+.orderByOptionItem{
+   color: #757575!important; 
+  }
+  .orderByOptionItem:nth-child(7n){
+   display: none;   
+  }
+  .orderByOptionItem:nth-child(8n){
+    display: none;   
+   }
+   .buttonShowMore{
+     margin-bottom: 50px;
+     background-color: #f4f4f4;
+     width: 300px;
+   }
+   .galleryTitle--layout{
+     display: none;
+   }

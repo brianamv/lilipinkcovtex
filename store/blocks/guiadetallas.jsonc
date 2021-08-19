@@ -1,0 +1,226 @@
+
+{
+  "store.custom.guia-de-tallas": {
+    "blocks": [
+      "flex-layout.row#titulo-guiadetallas",
+      "flex-layout.row#imagenguiadetallas",
+      "flex-layout.row#carousel-tips"
+      
+    ]
+  },
+  "flex-layout.row#carousel-tips":{
+    "children":[
+      "flex-layout.col#carousel-tips"
+    ],
+    "props":{
+      "marginBottom":8
+    }
+  },
+  "flex-layout.col#carousel-tips":{
+    "children":[
+      "list-context.image-list#guiadetallas"
+    ]
+  },
+  //titulo
+  "flex-layout.row#titulo-guiadetallas": {
+    "children": [
+      "rich-text#titulo-guiadetallas"
+    ]
+  },
+  "rich-text#titulo-guiadetallas": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "GUIA DE TALLAS",
+      "blockClass":"titulo-landing"
+    }
+  },
+  "flex-layout.row#imagenguiadetallas": {
+    "props": {
+      "marginTop":7,
+      "marginBottom":7,
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass":"tallas-landing"
+    },
+    "children": [
+      "flex-layout.col#imagenguiadetallas"
+    ]
+  },
+  "flex-layout.col#imagenguiadetallas": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "tab-layout#bragrande"
+    ]
+  },
+
+  "tab-layout#bragrande": {
+    "children": [
+      "tab-list#pageBragrande",
+      "tab-content#GuiaDeTallagrande"
+    ],
+    "props": {
+      "blockClass": "Tab-guia",
+      "defaultActiveTabId": "bra"
+    }
+  },
+  "tab-list#pageBragrande":{
+    "props":{
+      "blockClass":"boton-tallas"
+    },
+    "children": [
+      "tab-list.item#bragrande",
+      "tab-list.item#pantygrande"
+    ]
+  },
+  "tab-list.item#bragrande": {
+    "props": {
+      "tabId": "bra",
+      "label": "BRASIER",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#pantygrande": {
+    "props": {
+      "tabId": "home1",
+      "label": "PANTY"
+    }
+  },
+  "tab-content#GuiaDeTallagrande": {
+    "children": [
+      "tab-content.item#bragrande",
+      "tab-content.item#pantygrande"
+    ]
+  },
+  "tab-content.item#bragrande": {
+    "children": [
+      "flex-layout.row#bragrande"
+  
+    ],
+    "props": {
+      "tabId": "bra"
+    }
+  },
+  "tab-content.item#pantygrande": {
+    "children": [
+      "flex-layout.row#pantygrande"
+  
+    ],
+    "props": {
+      "tabId": "home1"
+    }
+  },
+  
+  "flex-layout.row#bragrande": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+  
+    },
+    "children": ["flex-layout.col#imagen-bragrande"]
+  },
+  
+  "flex-layout.col#imagen-bragrande": {
+    "children": ["image#bra-2grande"],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#bra-2grande": {
+    "props": {
+      "src": "assets/bra-grande.jpg"
+  
+    }
+  },
+  "flex-layout.row#pantygrande": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+  
+    },
+    "children": ["flex-layout.col#imagen-pantygrande"]
+  },
+  "flex-layout.col#imagen-pantygrande": {
+    "children": ["image#panty-2grande"],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#panty-2grande": {
+    "props": {
+      "src": "assets/panty-grande.jpg"
+  
+    }
+  },
+  //tips
+  /*"flex-layout.row#tips2": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.col#tips2"
+    ]
+  },
+  "flex-layout.col#tips2": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#tips2"
+    ]
+  },
+  "image#tips2": {
+    "props": {
+      "src": "assets/tips.jpg",
+      "href": "/catalogo"
+    }
+  },*/
+  //slider - Banner
+  "list-context.image-list#guiadetallas": {
+    "children": [
+      "slider-layout#demo-images-banner"
+    ],
+    "props": {
+      "height": 434,
+      "fullWidth": false,
+      "images": [
+        {
+          "src": "assets/tip1.jpg",
+          //"image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+          "mobileImage": "/arquivos/tip1mobile.jpg"
+        },
+        {
+          "src": "assets/tip2.jpg",
+          "mobileImage": "/arquivos/tip2mobile.jpg"
+        },
+        {
+          "src": "assets/tip3.jpg",
+          "mobileImage": "/arquivos/tip3mobile.jpg"
+        },
+        {
+          "src": "assets/tip4.jpg",
+          "mobileImage": "/arquivos/tip4mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images-banner": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "carouseltips"
+    }
+  }
+}

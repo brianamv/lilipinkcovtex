@@ -1,0 +1,321 @@
+.notificationBarContainer {
+  background-color: #e6f1e6;
+  color: #f71963;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+/*.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  max-height: 700px;
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  padding: 5px;
+}
+
+.infoCardContainer--info-card-ic1 {
+  max-width: 1520px;
+  max-height: 700px;
+  margin: 0 auto;
+  background-color: #EFEFEF;
+  padding: 5px;
+}
+
+.infoCardContainer--info-card-ic2 {
+  max-width: 1520px;
+  max-height: 700px;
+  margin: 0 auto;
+  background-color: #EFEFEF;
+  padding: 5px;
+}
+
+
+.infoCardContainer--info-card-ic3 {
+  max-width: 1520px;
+  max-height: 700px;
+  margin: 0 auto;
+  background-color: #EFEFEF;
+  padding: 5px;
+
+}*/
+.infoCardContainer--info-card {
+  height: 400px;
+}
+
+.imageElement--Imagenetiqueta {
+  height: 30px;
+  width: 30px;
+  margin: 0 2px 0 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.imageElement--Imagenetiquetaredes {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.imageElement--Imagenetiquetaredes-i {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.imageElement--Img-ig {
+  height: 44px;
+  width: 15%;
+  margin-bottom: -1%;
+  display: flex;
+  justify-content: right;
+}
+
+.imageElement--whatapps {
+  height: 46px;
+  width: 20%;
+  margin-bottom: -1%;
+  justify-content: left;
+}
+
+.imageElement--Img-fb {
+  height: 44px;
+  width: 15%;
+  margin-bottom: 1%;
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter {}
+
+.newsletter .container {}
+
+.newsletter-izquuerdo {}
+
+.newsletter-2 {}
+
+.newsletter .label {}
+
+.notificationBarContainer--tienda-whatapps {
+  background-color: transparent;
+
+
+
+}
+
+
+.label {
+  color: #e4147e;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  background-color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #e4147e;
+  font-size: 16px;
+}
+
+
+.inputGroup :global(.vtex-button) {
+  /*background-color: transparent;*/
+  color: #faf4f7;
+  border: none;
+}
+
+:global(.vtex-button) {
+  /*background-color: transparent;*/
+  background-color: white;
+  color: #000;
+
+
+}
+
+.buttonContainer {
+  padding-top: 0px;
+
+
+}
+
+.imageElement--storePrint {
+  max-height: 700px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.productNameContainer {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.searchIcon {
+  color: #e4147e;
+
+}
+
+.infoCardCallActionContainer :global(.vtex-button) {
+  border: 1px solid #000;
+  border-radius: 0px;
+}
+
+
+
+.buttonContainer :global(.vtex-button) {
+  color: #000;
+}
+
+.buttonContainer :global(.vtex-button):hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.skuSelectorSubcontainer {
+  margin-bottom: 0 !important;
+}
+
+.discountInsideContainer {
+  left: 0 !important;
+  right: inherit;
+  font-size: 18px;
+
+}
+
+.productBrandName--summaryListDesktop {
+  color: #757575 !important;
+}
+
+.skuSelectorItemTextValue {
+  color: #757575;
+}
+
+.productDescriptionTitle {
+  display: none;
+}
+
+.content {
+  font-family: 'Monserrat-regular';
+}
+
+.imageElement--flotante {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  right: 40px;
+  bottom: 40px;
+  z-index: 100;
+}
+
+.imageElement--imagenes-quienes-somos {
+  margin-top: 50px;
+}
+
+.imageElement.imageElement--imagencatbrasieres {
+  width: 70%;
+  float: right;
+}
+
+.buttonContainer :global(.vtex-button) {
+  color: #000;
+}
+
+.imageElement--imagenCambios {
+  margin: auto;
+}
+
+.imageElement--bannerfull {
+  width: 100%;
+}
+
+@media only screen and (min-width: 640px) {
+  .label {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 70%;
+    height: 90%;
+  }
+
+  .infoCardContainer--info-card-ic1 .infoCardImageContainer {
+    width: 90%;
+    height: 80%;
+    padding: 14px;
+  }
+
+  .infoCardContainer--info-card-ic2 .infoCardImageContainer {
+    width: 90%;
+    height: 80%;
+    padding: 14px;
+  }
+
+  .infoCardContainer--info-card-ic3 .infoCardImageContainer {
+    width: 90%;
+    height: 80%;
+    padding: 14px;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 700px;
+  }
+}
+.imageElement--payment-methods{
+  height: fit-content;
+  /* margin: auto; */
+}
+
+@media screen and (max-width:900px) {
+  .inputGroup {
+    display: block;
+  }
+  .newsletter .container{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .buttonContainer{
+    margin-top: 6px;
+  }
+  .imageElement--flotante {
+    position: fixed;
+    right: 4px;
+    bottom: 4px;
+  }
+
+}

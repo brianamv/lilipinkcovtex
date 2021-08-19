@@ -1,0 +1,298 @@
+{
+    "store.custom#tiendas": {
+        "blocks": [
+          
+          "flex-layout.row#tiendas",
+          "tab-layout#venta-whatsapp-tiendas-2"
+        ]
+      },
+      "flex-layout.row#tiendas": {
+        "children": [      
+          
+          "flex-layout.row#bannerwhatapps"
+        ]
+      },
+      "flex-layout.row#bannerwhatapps": {
+        "props": {
+          "verticalAlign": "middle",
+          "horizontalAlign": "center"
+        },
+        "children": ["image#bannerwhatapps"
+          
+        ]
+      }, 
+      
+      "image#bannerwhatapps": {  
+        "props": {  
+          "src": "assets/banner-whatsapp-final1.jpg"  
+          
+        }  
+      },
+      "tab-layout#venta-whatsapp-tiendas-2": {
+        "children": [           
+          "tab-list#page",
+          "tab-content#home"
+        ],
+        "props": {
+          "blockClass": "Tab-bogotá",
+          "defaultActiveTabId": "Tab-bogotá"
+        }
+      },
+      "tab-list#page":{
+        "children": [
+          "tab-list.item#Pagina-nueva",
+          "tab-list.item#Pagina-nueva-2"
+        ]   
+      },
+      "tab-list.item#Pagina-nueva": {
+        "props": {
+          "tabId": "Bogota",
+          "label": "Bogota",
+          "defaultActiveTab": true
+        }
+      },
+      "tab-list.item#Pagina-nueva-2": {
+        "props": {
+          "tabId": "home1",
+          "label": "villavo"
+        }
+      }, 
+      "tab-content#home": {
+        "children": [
+          "tab-content.item#pagina1"
+        ]
+      },
+      "tab-content.item#pagina1": {
+        "children": [
+          
+          "flex-layout.row#imagen-lilipink",
+          "flex-layout.row#imagen-lilipink2"
+        ],
+        "props": {
+          "tabId": "Bogota"
+        }
+      },
+      
+      "flex-layout.row#imagen-lilipink": {
+        "props": {
+          "verticalAlign": "middle",
+          "horizontalAlign": "center"
+          
+        },
+        "children": ["flex-layout.col#text-centromayor","flex-layout.col#text-tunal","flex-layout.col#text-ENSUEÑO","flex-layout.col#text-restrepo"]
+      },
+      "flex-layout.row#imagen-lilipink2": {
+        "props": {
+          "verticalAlign": "middle",
+          "horizontalAlign": "center"
+          
+        },
+        "children": ["flex-layout.col#text-ANTARES-SOACHA","flex-layout.col#text-TERREROS-SOACHA","flex-layout.col#text-SUBA", "flex-layout.col#text-GRAN-PLAZA-BOSA"]
+      },
+      "flex-layout.col#text-TERREROS-SOACHA":{
+        "children": ["image#icono","rich-text#title-TERREROS-SOACHA", "rich-text#cc-TERREROS-SOACHA","flex-layout.row#whatpps"],
+        "props": {
+          "blockclass": "textColumn",
+          "preventVerticalStretch": true
+        }
+      },
+      "flex-layout.row#whatpps":{
+        "children": ["notification.bar#whatapps"],
+        "props": {
+          "blockclass": "textColumn",
+          "preventVerticalStretch": true
+        }
+      },
+      "notification.bar#whatapps": {
+        "props": {
+            "blockClass": "tienda-whatapps",
+            "content": "<div><a href='https://api.whatsapp.com/send?phone=573219328912'><img src='/arquivos/logo-wh.png'/> <span style= color:green;>3219328912</span></a></div>"
+        }
+    },
+      "image#whatapps": {
+        "props": {
+          "src": "assets/logo-wh.png",
+          "href": "https://www.lilipink.com/web/venta-whatsapp",
+          "maxHeight": "",
+          "maxWidth": "",
+          "blockClass": "whatapps"
+        }
+      },
+      "rich-text#whatapps": {
+        "props": {
+            "blockClass": "text-whatapps",
+            "text":"3219328912",
+            "url": "https://app.slack.com/client/T0G6EE7TR/D01RTF1CL0G/thread/C5G5HG64E-1614887972.138000"
+          
+        }
+      },
+      
+      "flex-layout.col#text-ANTARES-SOACHA":{
+        "children": ["image#icono","rich-text#title-ANTARES-SOACHA", "rich-text#cc-ANTARES-SOACHA","flex-layout.row#whatpps"],
+        "props": {
+          "blockclass": "textColumn",
+          "preventVerticalStretch": true
+        }
+      },
+      "flex-layout.col#text-GRAN-PLAZA-BOSA":{
+        "children": ["image#icono","rich-text#title-GRAN-PLAZA-BOSA", "rich-text#cc-GRAN-PLAZA-BOSA","flex-layout.row#whatpps"],
+        "props": {
+          "blockclass": "textColumn",
+          "preventVerticalStretch": true
+        }
+      },
+      "flex-layout.col#text-SUBA":{
+        "children": ["image#icono","rich-text#title-SUBA", "rich-text#cc-SUBA","flex-layout.row#whatpps"],
+        "props": {
+          "blockclass": "textColumn",
+          "preventVerticalStretch": true
+        }
+      },
+      "flex-layout.col#text-vacio": {
+        "children": [],
+        "props": {
+          "blockclass": "textColumn",
+          "preventVerticalStretch": true
+        }
+      },
+      "flex-layout.col#text-centromayor": {
+        "children": ["image#icono","rich-text#title-centromayor", "rich-text#cc-centromayor","flex-layout.row#whatpps"],
+        "props": {
+          "blockclass": "textColumn",
+          "preventVerticalStretch": true
+        }
+      },
+      "flex-layout.col#text-restrepo": {
+        "children": ["image#icono","rich-text#title-restrepo", "rich-text#cc-restrepo","flex-layout.row#whatpps"],
+        "props": {
+          "blockclass": "textColumn",
+          "preventVerticalStretch": true
+        }
+      },
+      "flex-layout.col#text-ENSUEÑO":{
+        "children": ["image#icono","rich-text#title-ENSUEÑO", "rich-text#cc-ENSUEÑO","flex-layout.row#whatpps"],
+        "props": {
+          "blockclass": "textColumn",
+          "preventVerticalStretch": true
+        }
+    
+      },
+      "flex-layout.col#text-tunal": {
+        "children": ["image#icono","rich-text#title-tunal", "rich-text#cc-tunal","flex-layout.row#whatpps"],
+        "props": {
+          "blockclass": "textColumn",
+          "preventVerticalStretch": true
+        }
+      },
+      "rich-text#title-centromayor": {
+        "props": {
+          "text": "CENTRO MAYOR",
+          "blockClass": "Info-cc"
+        }
+      },      
+      
+      "rich-text#title-TERREROS-SOACHA": {
+        "props": {
+          "text": "TERREROS-SOACHA",
+          "blockClass": "Info-cc"
+        }
+      },
+      "rich-text#title-ANTARES-SOACHA": {
+        "props": {
+          "text": "ANTARES SOACHA",
+          "blockClass": "Info-cc"
+        }
+      },
+      "rich-text#title-tunal": {
+        "props": {
+          "text": "Tunal",
+          "blockClass": "Info-cc"
+        }
+      },
+      
+      "rich-text#title-ENSUEÑO": {
+        "props": {
+          "text": "Ensueño",
+          "blockClass": "Info-cc"
+        }
+      },
+      "rich-text#title-restrepo": {
+        "props": {
+          "text": "Restrepo",
+          "blockClass": "Info-cc"
+        }
+      },
+      "rich-text#title-GRAN-PLAZA-BOSA": {
+        "props": {
+          "text": "GRAN PLAZA BOSA",
+          "blockClass": "Info-cc"
+        }
+      },
+      "rich-text#cc-GRAN-PLAZA-BOSA": {
+        "props": {
+          "text": "C.C Gran Plaza Bosa Local 158 Calle 65 sur No 78 H 51",
+          "blockClass": "Info-cc-2"
+        }
+      },
+      "rich-text#title-SUBA": {
+        "props": {
+          "text": "SUBA",
+          "blockClass": "Info-cc"
+        }
+      },
+      "rich-text#cc-SUBA": {
+        "props": {
+          "text": "C.C Plaza Imperial Local 167 Carrea 104 No 148-07",
+          "blockClass": "Info-cc-2"
+        }
+      },
+      "image#icono": {
+        "props": {
+          "src": "assets/l-lili-tienda-wh.png",
+          "maxHeight": "",
+          "maxWidth": "",
+          "blockClass": "storePrint"
+        }
+      },
+      "rich-text#cc-centromayor": {
+        "props": {
+          "text": "C.C Centro Mayor Local 1-129 Autopista sur No 38a",
+          "blockClass": "Info-cc-2"
+        }
+      },
+     
+      "rich-text#cc-TERREROS-SOACHA": {
+        "props": {
+          "text": "C.C Ventura Terreros Local 109 Carrera 1 No 38-53",
+          "blockClass": "Info-cc-2"
+        }
+      },
+      
+      "rich-text#cc-tunal": {
+        "props": {
+          "text": "C.C Ciudad Tunal Local 1051-1053 Calle 47 No 24b-33 Sur",
+          "blockClass": "Info-cc-2"
+        }
+      },
+      
+      
+      "rich-text#cc-ENSUEÑO": {
+        "props": {
+          "text": "Carrera 51 # 59c Sur - 93 LOCAL 158",
+          "blockClass": "Info-cc-2"
+        }
+      },
+      "rich-text#cc-restrepo": {
+        "props": {
+          "text": "Carrera 19 No 16-32",
+          "blockClass": "Info-cc-2"
+        }
+      },
+      
+      "rich-text#cc-ANTARES-SOACHA":{
+        "props": {
+          "text": "C.C Gran Plaza Soacha Local 1-113 Carrera 7 No 30b-139",
+          "blockClass": "Info-cc-2"
+        }
+      }
+}

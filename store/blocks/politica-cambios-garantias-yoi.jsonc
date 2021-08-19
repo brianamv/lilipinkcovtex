@@ -1,0 +1,107 @@
+{
+  "store.custom.politica-cambios-garantias-yoi": {
+    "blocks": [
+      "flex-layout.row#politicaDeGarantiayCambioYoi"
+    ]
+  },
+  "flex-layout.row#politicaDeGarantiayCambioYoi": {
+    "props": {
+      "blockClass": "margenLanding",
+      "marginBottom": 8
+    },
+    "children": [
+      "flex-layout.col#politicaDeGarantiayCambioYoi"
+    ]
+  },
+  "flex-layout.col#politicaDeGarantiayCambioYoi": {
+    "children": [
+      "rich-text#politicaDeGarantiayCambioYoi",
+      "rich-text#politicaDeGarantiayCambioInfoYoi",
+      "rich-text#politicaComercialYoi",
+      "rich-text#politicaComercialInfoYoi",
+      "rich-text#politicaGarantiaYoi",
+      "rich-text#politicaComercialInfoYoi2",
+      "rich-text#politicaRetractoYoi",
+      "rich-text#politicaComercialInfoYoi3",
+      "rich-text#politicaReversionYoi",
+      "rich-text#politicaComercialInfoYoi4",
+      "rich-text#posventaYoi",
+      "rich-text#politicaComercialInfoYoi5"
+    ]
+  },
+  "rich-text#politicaDeGarantiayCambioYoi": {
+    "props": {
+      "text": "POLÍTICA DE GARANTÍA Y CAMBIOS YOI",
+      "textPosition": "CENTER",
+      "blockClass": "titulo-landing"
+    }
+  },
+  "rich-text#politicaDeGarantiayCambioInfoYoi": {
+    "props": {
+      "text": "YOI es una marca registrada en Colombia y varios otros territorios del mundo, licenciada para su explotación y uso comercial a favor de PINK LIFE S.A.S. identificada con Nit. 900.914.444-4, compañía constituida bajo las leyes colombianas y domiciliada en la carrera 19A N° 196-23 de Bogotá D.C., cuya dirección de contacto electrónico es: servicioalclienteyoi@yoi-colombia.com, y teléfono (1) 6702400 ext. 107 y para los efectos de este contenido, se entenderá como “la empresa”.",
+      "textPosition": "CENTER",
+      "blockClass": "texto-landing"
+    }
+  },
+  "rich-text#politicaComercialYoi": {
+    "props": {
+      "text": "POLÍTICA COMERCIAL DE CAMBIOS Y DEVOLUCIONES DE PRODUCTO YOI",
+      "blockClass": "Vacantes-izq"
+    }
+  },
+  "rich-text#politicaComercialInfoYoi": {
+    "props": {
+      "text": "\n\nPara solicitar un cambio de producto, el consumidor debe tener en cuenta las siguientes reglas:\n1.1. El plazo máximo para un cambio de producto es de cinco (5) días calendario contados a partir de la entrega del producto haya sido compra presencial o no presencial.\n1.2. Al momento de la solicitud de cambio: el producto no puede tener señales de uso y debe presentar su empaque original, con todas sus etiquetas y anexos de presentación en buen estado.\n1.3. Para realizar el cambio de un producto identificado con la marca Yoi, siempre deberá ser presentada la factura de compra y hacer la solicitud de cambio en el mismo punto de venta donde fue realizada la compra.\n1.4. Los siguientes productos **NO** tienen cambio bajo ninguna circunstancia: cosméticos, línea de perfumería, ropa interior, tops, medias, pantumedias, productos de salud personal, o de higiene que al ser usados tengan contacto con la piel y/o el cabello, igualmente se excluyen de la política de cambios los productos de la categoría de bisutería, relojes, gafas, sombreros, carteras y pilas alcalinas.\n1.5. Nuestro personal encargado en cada punto de venta, se encuentra en la obligación de dar estricto cumplimiento a estas reglas, quien validará cada una de ellas al momento de cualquier reclamación y si resulta viable el cambio según el caso, procederá con realizarlo sin mediar trámite alguno. En caso de no estar de acuerdo con la decisión adoptada en el punto de venta, el cliente podrá acudir a colocar una reclamación en los términos planteados en el numeral 2.10.",
+      "blockClass": "texto-landing"
+    }
+  },
+  "rich-text#politicaGarantiaYoi": {
+    "props": {
+      "text": "POLÍTICA DE GARANTÍA",
+      "blockClass": "Vacantes-izq"
+    }
+  },
+  "rich-text#politicaComercialInfoYoi2": {
+    "props": {
+      "text": "\n\n2.1. La garantía de todos los productos que forman parte del portafolio de la marca YOi, será de 30 días calendario contados a partir de la entrega del producto una vez se haya realizado la compra, salvo si se trata de electrodomésticos, caso en el cual será de un año contado de la misma forma; esta garantía cubre defectos de fabricación y funcionamiento durante el uso normal y adecuado del producto bajo el cumplimiento de las instrucciones plasmadas en la etiqueta, empaque o instrucciones de uso anexas si aplica. Para compras realizadas por medios no presenciales, los 30 días se contarán a partir del momento de la entrega del pedido.\n2.2. La empresa no suministra partes o repuestos, así como tampoco brinda servicios de reparación o mantenimiento respecto de los bienes que se identifican con la marca YOi, por lo tanto, en caso de tener que hacer una reclamación por garantía estando dentro de los tiempos de cobertura de este derecho, el cliente deberá surtir el trámite que se explica a continuación:\n2.3. Para ejercer el derecho a la garantía basta con que el cliente efectúe un registro fotográfico detallado del inconveniente sobre el producto y realice por escrito la reclamación dirigiendo un email a la siguiente dirección: pqrs@yoi-colombia.com; si el cliente no tiene la facilidad de enviar un email, se debe dirigir con el producto a la tienda donde fue realizada la compra y se debe solicitar a la persona encargada, un formato de reclamación para diligenciar, ella al momento de recibir la solicitud de garantía, podrá orientar su diligenciamiento, incluso podrá ayudar a tomar el registro fotográfico solicitado; en caso de tener la factura de compra, se solicita al consumidor adjuntarla a la reclamación a través de fotocopia, ya que esto hará más fácil el trámite y la empresa podrá dar respuesta de una forma más expedita; en caso de no tener la factura, solicitamos indicar en el escrito de la reclamación la fecha exacta de la compra y el valor exacto que fue pagado por el producto.\n2.4. Cuando haya sido enviado el correo electrónico, o haya sido diligenciado el formato, la empresa efectuará un análisis del artículo con el registro fotográfico enviado o tomado en la tienda y el estado del mismo para brindar una respuesta de fondo, atendiendo lo dispuesto de las reglas contenidas en la ley 1480 de 2011 y el decreto 735 de 2013.\n2.5. El área encargada brindará respuesta por escrito dentro de los quince (15) días hábiles siguientes a su presentación, y en caso que aplique la reposición del producto, se solicitará dejarlo en la tienda donde fue adquirido para que a cambio, se haga efectiva dicha reposición y pueda el cliente adquirir uno igual, de similares condiciones o adquiera otro producto de la tienda si así lo prefiere, del mismo valor o superior asumiendo el cliente dicho excedente.\n**2.6.En caso que la empresa requiera más tiempo del previsto en la ley para emitir una respuesta de fondo al consumidor, esta se obliga a informar al interesado, dejando una fecha límite de respuesta que en ningún caso podrá superar los 30 días hábiles contados a partir de recibida la reclamación.**\n2.7. En caso de exigir reembolso, en cualquier caso, la situación deberá ser analizada detalladamente.\n2.8. Para poder ejercer el derecho a la garantía y que este sea respondido de forma favorable al consumidor, es necesario que se evidencie que el producto fue utilizado y operado de acuerdo con las instrucciones propias de su uso y que no se evidencie que haya sido alterado o reparado por personas ajenas al personal autorizado de la marca YOi.\n2.9. Para dudas sobre estas políticas o solicitud de ampliación de esta información,  invitamos al consumidor que nos escriba al correo electrónico: pqrs@yoi-colombia.com. o a solicitar en cualquiera de nuestros establecimientos de comercio un formulario de pqrs para ser diligenciado explicando el caso.",
+      "blockClass": "texto-landing"
+    }
+  },
+  "rich-text#politicaRetractoYoi": {
+    "props": {
+      "text": "POLÍTICA DE RETRACTO",
+      "blockClass": "Vacantes-izq"
+    }
+  },
+  "rich-text#politicaComercialInfoYoi3": {
+    "props": {
+      "text": "\n\nLos usuarios de canales de compra no presenciales, tienen el derecho al retracto por virtud del del artículo 47 de la ley 1480 de 2011; **el término máximo para ejercer este derecho, es de 5 días hábiles contados a partir de la entrega del producto**. El producto deberá ser devuelto en las mismas condiciones en que lo recibió. Los costos de transporte y demás, incurridos en la devolución serán asumidos por el usuario.\nPara gestionar la devolución del dinero el usuario deberá enviar un correo electrónico a servicioalcliente@lilipink.com, colocando en asunto: “DERECHO DE RETRACTO y el número de cédula del comprador”.\nDe acuerdo con el numeral 7 del artículo 47 de la ley 1480 de 2011, **se exceptúan del derecho de retracto los productos identificados a continuación:**\n**Productos de uso personal:** Entiéndase como todos aquellos productos que para su uso, deben tener contacto con la piel o el cabello sin limitarse: productos de salud, o de higiene, brassieres, tops, panties, calzoncillos, bóxers, línea de prendas control, fajas, bodys, *Maggia*, línea *secret*, invisible, *silicon soft*, adhesivos, medias, pantumedias, similares, vestidos de baño, línea kids, teen y materna, accesorios de bisutería, sombreros, carteras, gafas, orejeras, audífonos, productos de belleza como maquillaje, fragancias y cuidado corporal.\nEn caso de cumplir con las condiciones mencionadas, la empresa devolverá la suma total pagada, sin descuentos o retenciones; sin embargo se reitera que en caso de ser aplicable el derecho al retracto, el usuario deberá asumir el costo del transporte por envío, y el término para la devolución del dinero no podrá exceder de 30 días calendario.",
+      "blockClass": "texto-landing"
+    }
+  },
+  "rich-text#politicaReversionYoi": {
+    "props": {
+      "text": "POLÍTICA DE REVERSIÓN",
+      "blockClass": "Vacantes-izq"
+    }
+  },
+  "rich-text#politicaComercialInfoYoi4": {
+    "props": {
+      "text": "\n\nLos usuarios de canales de compra no presenciales, tienen el derecho a la reversión de los pagos realizados a través una tarjeta de crédito, débito o cualquier otro instrumento de pago electrónico, la empresa y la entidad bancaria emisora del medio de pago, estará obligada a facilitar los medios para reversar los pagos que solicite el usuario cuando sea objeto de fraude, o corresponda a una operación no solicitada, o el producto adquirido no sea recibido, o el producto entregado no corresponda a lo solicitado o sea defectuoso.\nLa reversión del pago, es un derecho de los consumidores que compran productos a través de comercio electrónico y canales no presenciales, permitiéndoles solicitar el reembolso de lo pagado, a cambio de la devolución del producto comprado (cuando aplique), siempre que se presente alguno de los siguientes casos y se cumplan algunos requisitos:\n1. Cuando el producto comprado no haya sido entregado en la fecha programada de entrega que el cliente seleccionó al realizar su compra.\n2. Cuando el producto entregado no corresponda al comprado, no cumpla con las características atribuidas por la información que se suministró sobre éste o las que son propias del mismo.\n3. Cuando el producto entregado sea defectuoso o no tenga la idoneidad para su uso.\n4. Cuando el consumidor haya sido víctima de un fraude.\n4. Cuando el cargo o pago por los productos corresponda a una operación que no haya sido solicitada por el consumidor.\n\nLos requisitos para que aplique la reversión serán:\n1. Que la compra se haya realizado por un canal de venta no presencial, es decir, cualquier medio diferente a la compra realizada en punto de venta.\n2. La compra debe haberse pagado utilizando tarjeta de crédito, débito o cualquier otro instrumento de pago electrónico.\n3. Presentar la solicitud de Reversión oportunamente. Es decir, dentro de los cinco (5) días hábiles siguientes a:\n 1. La fecha en que el cliente debió recibir el producto, de acuerdo a la fecha programada de entrega que seleccionó al realizar su compra, ante cualquier novedad en la entrega.\n 2. La fecha en que el cliente recibió un producto de la empresa que resultó defectuoso o que no correspondía al que efectivamente adquirió.\n 3. La fecha en que el cliente se enteró de que fue víctima de una operación fraudulenta o un pago que no fue solicitado por él.\n4. El usuario deberá presentar la reclamación ante la empresa al correo electrónico: servicioalcliente@lilipink.com colocando en asunto: “REVERSIÓN DE PAGO”, y en el cuerpo del texto del mensaje señalar su nombre completo, número de cédula, teléfono de contacto, relato sucinto de las motivaciones por las cuales ejerce la reversión, Valor por el cual solicita la reversión y la totalidad de los datos de la transacción realizada, incluyendo los datos de cuenta, banco e información del instrumento de pago al que fue cargada la operación.\n5. Devolver el producto en las mismas condiciones que fue recibido, a la transportadora delegada por la empresa en caso de haberlo recibido.\n6. Notificar la reclamación al emisor del instrumento de pago electrónico utilizado para realizar la compra, el cual, en conjunto con los demás participantes del proceso de pago, procederán a reversar la transacción al comprador. ",
+      "blockClass": "texto-landing"
+    }
+  },
+  "rich-text#posventaYoi": {
+    "props": {
+      "text": "POSVENTA",
+      "blockClass": "Vacantes-izq"
+    }
+  },
+  "rich-text#politicaComercialInfoYoi5": {
+    "props": {
+      "text": "\n\nEl contacto del prestador de los servicios posventa y la forma de acceder a dicha prestación, es el correo electrónico: servicioalcliente@lilpink.com.",
+      "blockClass": "texto-landing"
+    }
+  }
+
+}

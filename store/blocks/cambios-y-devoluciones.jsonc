@@ -1,0 +1,297 @@
+{
+  "store.custom.cambios-y-devoluciones": {
+    "blocks": [
+      "flex-layout.row#TextoCambiosyDevoluciones",
+      "flex-layout.row#InfoCambiosyDevoluciones",
+      "flex-layout.row#ProductosLilipinkYoi",
+      "flex-layout.row#PasosCambios",
+      "flex-layout.row#Titulocancelar",
+      "flex-layout.row#Titulogarantia",
+      "flex-layout.row#imagenescambios",
+      "flex-layout.row#TienesDerecho"
+
+    ]
+
+  },
+  "flex-layout.row#TextoCambiosyDevoluciones": {
+    "props":{
+      "blockClass":"margenLanding"
+    },
+    "children": [
+      "flex-layout.col#TextoCambiosyDevoluciones"
+    ]
+  },
+  "flex-layout.col#TextoCambiosyDevoluciones": {
+    "children": [
+      "rich-text#TextoCambiosyDevoluciones"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#TextoCambiosyDevoluciones": {
+    "props": {
+      "text": "CAMBIOS Y DEVOLUCIONES",
+      "textPosition": "CENTER",
+      "blockClass": "Vacantes"
+    }
+  },
+  "flex-layout.row#InfoCambiosyDevoluciones": {
+    "props":{
+      "blockClass":"margenLanding"
+    },
+    "children": [
+      "flex-layout.col#InfoCambiosyDevoluciones"
+    ]
+  },
+  "flex-layout.col#InfoCambiosyDevoluciones": {
+    "children": [
+      "rich-text#InfoCambiosyDevoluciones"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#InfoCambiosyDevoluciones": {
+    "props": {
+      "text": "En Lilipink trabajamos día a día para que tu experiencia sea 100% satisfactoria; si por alguna razón no estás satisfecho con tu compra, tienes hasta <br>5 días hábiles<br> para solicitar un cambio a partir de la entrega del producto o del día de la compra. En los siguientes link podrás encontrar el detalle de las políticas de cambios y garantía: [**POLÍTICAS DE CAMBIOS Y GARANTÍA LILIPINK**](http://valeria--lilipinkco.myvtex.com/politica-cambios-garantias-lili) - [**POLITICAS DE CAMBIOS Y GARANTÍA YOI**](http://valeria--lilipinkco.myvtex.com/politica-cambios-garantias-yoi) Adicionalmente, por favor tener en cuenta las siguientes condiciones: ",
+      "textPosition": "CENTER",
+      "blockClass": "web-promociones"
+    }
+  },
+  "flex-layout.row#ProductosLilipinkYoi": {
+    "props":{
+      "blockClass":"margenLanding"
+    },
+    "children": [
+      "flex-layout.col#ProductosLilipink",
+      "flex-layout.col#espacio-banners",
+      "flex-layout.col#ProductosYoi"
+    ]
+  },
+  "flex-layout.col#ProductosLilipink": {
+    "children": [
+      "rich-text#TituloProductosLilipink",
+      "rich-text#InfoProductosLilipink"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#ProductosYoi": {
+    "children": [
+      "rich-text#TituloProductosYoi",
+      "rich-text#InfoProductosYoi"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#TituloProductosLilipink": {
+    "props": {
+      "text": "PRODUCTOS LILIPINK",
+      "textPosition": "CENTER",
+      "blockClass": "TituloCambiosLilipink"
+    }
+  },
+  "rich-text#InfoProductosLilipink": {
+    "props": {
+      "text": "Por razones de higiene no aceptamos cambios o devoluciones de estos productos, no aplican para cambio  bajo ninguna circunstancia:\n1.Productos de salud personal\n2.Productos de higiene que al ser usados tengan contacto con la piel y/o cabello\n3.Brasieres o tops\n4.Prendas como boxer, cachetero, tanga, hilo de cualquier referencia o juegos de los que estos hagan parte\n5.Línea de prenda de control como fajas, bodys y Maggia\n6.Linea Secret, Invisible, Silicone Soft y adhesivos\n7.Maquillaje, perfumes, splash y línea de belleza en general\n8.Medias y pantumedias\n9.Vestidos de baño de cualquier referencia para dama, para caballero y para niños\n10-Bisutería, gafas, sombreros, carteras y accesorios\nTeniendo en cuenta que estos productos tienen el carácter de uso íntimo y personal en armonía con el artículo 47 numeral 7° del estatuto del consumidor ley 1480 de 2011.",
+      "blockClass": "web-promociones"
+    }
+  },
+  "rich-text#TituloProductosYoi": {
+    "props": {
+      "text": "PRODUCTOS YOI",
+      "textPosition": "CENTER",
+      "blockClass": "TituloCambiosYoi"
+    }
+  },
+  "rich-text#InfoProductosYoi": {
+    "props": {
+      "text": "Por razones de higiene no aceptamos cambios o devoluciones de estos productos, no aplican para cambio  bajo ninguna circunstancia:\n1.Cosmeticos, línea de perfumería\n2.Ropa interior, tops, medias, pantumedias\n3.Productos de salud personal, o de higiene que al ser usados tengan contacto con la piel y/o el cabello\n4.Bisutería, relojes, gafas, sombreros, carteras y pilas alcalinas\nTeniendo en cuenta que estos productos tienen el carácter de uso íntimo y personal en armonía con el artículo 47 numeral 7° del estatuto del consumidor ley 1480 de 2011.",
+      "blockClass": "web-promociones"
+    }
+  },
+  "flex-layout.row#PasosCambios": {
+    "props":{
+      "blockClass":"margenLanding"
+    },
+    "children": [
+      "flex-layout.col#PasosCambios"
+    ]
+  },
+  "flex-layout.col#PasosCambios": {
+    "children": [
+      "rich-text#TituloPasosCambios",
+      "rich-text#InfoPasosCambios"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#TituloPasosCambios": {
+    "props": {
+      "text": "Pasos que debes seguir:",
+      "blockClass": "web-promociones"
+    }
+  },
+  "rich-text#InfoPasosCambios": {
+    "props": {
+      "text": "1.)Debes enviar un correo electrónico a servicioalcliente@lilipink.com, colocando en asunto: “SOLICITUD DE CAMBIO” y en el cuerpo del mensaje adjuntar un registro fotográfico donde el producto: no presente señales de uso, debe conservar todas sus etiquetas y marquillas aun puestas y en su empaque original, recuerda que todo debe estar en perfecto estado; una explicación de los motivos por los cuales es solicitado ejercer este derecho.\n2.)Debes asumir el costo del transporte por envío, y el término para la devolución del dinero no podrá exceder de 30 días calendario contados a partir de recibida la información completa para ser realizado el reembolso y que se haya recibido de forma aceptable el producto devuelto. Lilipink se reserva el derecho de aceptar los cambios y las devoluciones.\n3.)Si tu compra fue en tienda, para realizar el cambio de un producto identificado con la marca Yoi/Lilipink, siempre deberá ser presentada la factura de compra y hacer la solicitud de cambio en el mismo punto de venta donde fue realizada la compra.",
+      "blockClass": "web-promociones"
+    }
+  },
+  "flex-layout.row#Titulocancelar": {
+    "props":{
+      "blockClass":"margenLanding"
+    },
+    "children": [
+      "flex-layout.col#Titulocancelar"
+    ]
+  },
+  "flex-layout.col#Titulocancelar": {
+    "children": [
+
+      "rich-text#Titulocancelar",
+      "rich-text#Infocancelar"
+    ],
+    "props": {
+      "blockclass": "text",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#Titulocancelar": {
+    "props": {
+      "text": "CANCELACIÓN",
+      "textPosition": "CENTER",
+      "blockClass": "Vacantes-peque"
+    }
+  },
+  "rich-text#Infocancelar": {
+    "props": {
+      "text": "Si deseas cancelar tu pedido comunícate con nosotros en Bogotá al 6702400 ext 107, o al celular 310 5756438 de lunes a viernes de 8:00 a.m. a 5:00 p.m o escribirnos al correo servicioalcliente@lilipink.com con el asunto “CANCELACIÓN DEL PEDIDO”.Si tu pedido ya fue despachado, debes esperar a que llegue el producto y seguir el procedimiento de cambio y devoluciones.",
+      "blockClass": "web-promociones"
+    }
+  },
+  "flex-layout.row#Titulogarantia": {
+    "props":{
+      "blockClass":"margenLanding"
+    },
+    "children": [
+      "flex-layout.col#Titulogarantia"
+    ]
+  },
+  "flex-layout.col#Titulogarantia": {
+    "children": [
+
+      "rich-text#Titulogarantia",
+      "rich-text#Infogarantia",
+      "rich-text#Infogarantiaimportante"
+    ],
+    "props": {
+      "blockclass": "text",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#Titulogarantia": {
+    "props": {
+      "text": "GARANTÍA",
+      "textPosition": "CENTER",
+      "blockClass": "Vacantes-peque"
+    }
+  },
+  "rich-text#Infogarantia": {
+    "props": {
+      "text": "Si deseas cancelar tu pedido comunícate con nosotros en Bogotá al 6702400 ext 107, o al celular 310 5756438 de lunes a viernes de 8:00 a.m. a 5:00 p.m o escribirnos al correo servicioalcliente@lilipink.com con el asunto “CANCELACIÓN DEL PEDIDO”.Si tu pedido ya fue despachado, debes esperar a que llegue el producto y seguir el procedimiento de cambio y devoluciones.",
+      "blockClass": "web-promociones"
+    }
+  },
+  "rich-text#Infogarantiaimportante": {
+    "props": {
+      "text": "1.)El producto debió recibir un uso y lavado conforme a las instrucciones en la etiqueta o instrucciones de uso, según sea el caso. \n2.)Si tu compra fue en la tienda, no es necesario presentar tu factura, pero sí debes informar al momento de realizar la reclamación por garantía, la fecha y punto de venta de la compra y el valor exacto por el cual la factura fue emitida la misma. \n3.Para ejercer el derecho a la garantía es necesario que nos envíes un registro fotográfico detallado del inconveniente sobre el producto y realices por escrito la reclamación en el email: servicioalcliente@lilipink.com; si no tienes facilidad de enviar un email, podrás solicitar en cualquier punto de venta LILI PINK, un formato para diligenciar, el encargado al momento de recibir la solicitud de garantía, podrá orientar su diligenciamiento, incluso podrá ayudar a tomarte en el registro fotográfico solicitado.\n4.)No son motivos de garantía los siguientes: \nDaños ocasionados por desgaste natural, uso, lavado excesivo o inadecuado.\nAbrasión o uso inadecuado del producto, maltrato como raspaduras, ralladuras o modificaciones producidas en el uso.\nAlteraciones por productos químicos como tintes o procesos de teñido en la elaboración del producto.Margen de tolerancia respecto a la tabla de medidas publicadas.\n5.)El producto será revisado por el departamento encargado, y te daremos respuesta en 15 días hábiles siguientes a la solicitud y siempre la información este completa. En caso que el producto permita reparación el mismo será reparado, de lo contrario se procederá a devolver el dinero.",
+      "blockClass": "web-promociones"
+    }
+  },
+  "flex-layout.row#imagenescambios": {
+    "props":{
+      "blockClass":"margenLanding"
+      
+    },
+    "children": [
+      "image#textocambiosinformativo",
+      "rich-text#textocambiosinformativo",
+      "image#factura",
+      "rich-text#factura"
+
+    ]
+  },
+  "image#textocambiosinformativo": {
+    "props": {
+      "blockClass": "imagenCambios",
+      "src": "assets/bolsa.png",
+      "height":150,
+      "width":150
+
+    }
+  },
+  "rich-text#textocambiosinformativo": {
+    "props": {
+      "text": "De acuerdo a los artículos 207 y 208 de la ley 1819 de 2016, reglamentados por el decreto 2198 de 2017, nuestros establecimientos de comercio recaudarán el valor de cada bolsa plástica de acuerdo con la solicitud que haga el cliente en su compra.",
+      "textPosition": "CENTER",
+      "blockClass": "infoImagen"
+    }
+  },
+  "image#factura": {
+    "props": {
+      "blockClass": "imagenCambios",
+      "src": "assets/recibo.png",
+      "height":150,
+      "width":150
+
+    }
+  },
+  "rich-text#factura": {
+    "props": {
+      "text": "De acuerdo a los artículos 207 y 208 de la ley 1819 de 2016, reglamentados por el decreto 2198 de 2017, nuestros establecimientos de comercio recaudarán el valor de cada bolsa plástica de acuerdo con la solicitud que haga el cliente en su compra.",
+      "textPosition": "CENTER",
+      "blockClass": "infoImagen"
+    }
+  },
+  "flex-layout.row#TienesDerecho": {
+    "props":{
+      "blockClass":"margenLanding"
+    },
+    "children": [
+      "flex-layout.col#TienesDerecho"
+    ]
+  },
+  "flex-layout.col#TienesDerecho": {
+    "children": [
+      "rich-text#TienesDerecho",
+      "rich-text#InfoTienesDerecho"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#TienesDerecho": {
+    "props": {
+      "text": "TIENES DERECHO A RECIBIR LAS VUELTAS COMPLETAS",
+      "blockClass": "derecho"
+    }
+  },
+  "rich-text#InfoTienesDerecho": {
+    "props": {
+      "text": "Por instrucción de la Superintendencia de Industria y Comercio, este establecimiento debe informar al público, además del valor de cada artículo, el precio por unidad de medida, es decir, cuántos pesos se pagan por cada unidad de medida de los bienes que ofrece. Así mismo, este establecimiento debe contar con las denominaciones necesarias para dar al consumidor las vueltas correctas y en ningún caso el cambio podrá ser inferior al que arroje la cuenta. Como responsable de esta disposición, se ha designado al administrador(a) del punto de venta, quien recibirá sus comentarios, en caso de persistir o tener que elevar su queja a reclamación formal, agradecemos informar al email: servicioalcliente@lilipink.com.",
+      "textPosition": "CENTER",
+      "blockClass": "web-promociones"
+    }
+  }
+}

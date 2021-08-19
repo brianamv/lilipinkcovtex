@@ -1,0 +1,368 @@
+{
+  "drawer#yoi": {
+    "props":{
+      "blockClass":"hamburguer"
+    },
+    "children": [
+      "menu#nivel-1"
+    ]
+  },
+
+  "menu#nivel-1": {
+    "children": [
+      "drawer#accesorios",
+      "drawer#hogar",
+      "drawer#deporte",
+      "drawer#estacional",
+      "drawer#jugueteria",
+      "drawer#mascotas",
+      "drawer#bellezaybienestar",
+      "drawer#tecnologia",
+      "drawer#papeleria",
+      "menu-item#socialseller",
+      "menu-item#tiendas"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menu-movil"
+    }
+  },
+  "drawer#accesorios": {
+    "children": [
+      "menu#accesorios"
+    ],
+    "blocks": ["drawer-trigger#accesorios","drawer-header#menuprincipal"]
+  },
+  "drawer-trigger#accesorios": {
+    "children": ["rich-text#accesorio"]
+  },
+  "rich-text#accesorio": {
+    "props": {
+      "text": "ACCESORIOS",
+      "blockClass":"trigger-movil"
+    }
+  },
+  "drawer#hogar": {
+    "children": [
+      "menu#hogar"
+    ],
+    "blocks": ["drawer-trigger#hogar","drawer-header#menuprincipal"]
+  },
+  "drawer-trigger#hogar": {
+    "children": ["rich-text#hogar"]
+  },
+  "rich-text#hogar": {
+    "props": {
+      "text": "HOGAR",
+      "blockClass":"trigger-movil"
+    }
+  },
+  "drawer#deporte": {
+    "children": [
+      "menu#deporte"
+    ],
+    "blocks": ["drawer-trigger#deporte","drawer-header#menuprincipal"]
+  },
+  "drawer-trigger#deporte": {
+    "children": ["rich-text#deporte"]
+  },
+  "rich-text#deporte": {
+    "props": {
+      "text": "DEPORTES",
+      "blockClass":"trigger-movil"
+    }
+  },
+  "drawer#estacional": {
+    "children": [
+      "menu#estacional"
+    ],
+    "blocks": ["drawer-trigger#estacional","drawer-header#menuprincipal"]
+  },
+  "drawer-trigger#estacional": {
+    "children": ["rich-text#estacional"]
+  },
+  "rich-text#estacional": {
+    "props": {
+      "text": "ESTACIONAL",
+      "blockClass":"trigger-movil"
+    }
+  },
+  "drawer#jugueteria": {
+    "children": [
+      "menu#jugueteria"
+    ],
+    "blocks": ["drawer-trigger#jugueteria","drawer-header#menuprincipal"]
+  },
+  "drawer-trigger#jugueteria": {
+    "children": ["rich-text#jugueteria"]
+  },
+  "rich-text#jugueteria": {
+    "props": {
+      "text": "JUGUETERÍA",
+      "blockClass":"trigger-movil"
+    }
+  },
+  "drawer#mascotas": {
+    "children": [
+      "menu#mascotas"
+    ],
+    "blocks": ["drawer-trigger#mascotas","drawer-header#menuprincipal"]
+  },
+  "drawer-trigger#mascotas": {
+    "children": ["rich-text#mascotas"]
+  },
+  "rich-text#mascotas": {
+    "props": {
+      "text": "MASCOTAS",
+      "blockClass":"trigger-movil"
+    }
+  },
+  "drawer#bellezaybienestar": {
+    "children": [
+      "menu#bellezaybienestar"
+    ],
+    "blocks": ["drawer-trigger#bellezaybienestar","drawer-header#menuprincipal"]
+  },
+  "drawer-trigger#bellezaybienestar": {
+    "children": ["rich-text#bellezaybienestar"]
+  },
+  "rich-text#bellezaybienestar": {
+    "props": {
+      "text": "BELLEZA Y BIENESTAR",
+      "blockClass":"trigger-movil"
+    }
+  },
+  "drawer#tecnologia": {
+    "children": [
+      "menu#tecnologia"
+    ],
+    "blocks": ["drawer-trigger#tecnologia","drawer-header#menuprincipal"]
+  },
+  "drawer-trigger#tecnologia": {
+    "children": ["rich-text#tecnologia"]
+  },
+  "rich-text#tecnologia": {
+    "props": {
+      "text": "TECNOLOGÍA",
+      "blockClass":"trigger-movil"
+    }
+  },
+  "drawer#papeleria": {
+    "children": [
+      "menu#papeleria"
+    ],
+    "blocks": ["drawer-trigger#papeleria","drawer-header#menuprincipal"]
+  },
+  "drawer-trigger#papeleria": {
+    "children": ["rich-text#papeleria"]
+  },
+  "rich-text#papeleria": {
+    "props": {
+      "text": "PAPELERÍA",
+      "blockClass":"trigger-movil"
+    }
+  },
+  "menu#accesorios": {
+    "children": [
+      "rich-text#accesorios",
+      "menu-item#category-cabello",
+      "menu-item#category-bisuteria",
+      "menu-item#category-bolsos-y-morrales",
+      "menu-item#category-cuidado-gafas",
+      "menu-item#category-moda",
+      "menu-item#category-relojeria"
+
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menu-movil"
+    }
+
+},
+"menu#hogar": {
+  "children": [
+      "rich-text#Hogar",
+      "menu-item#category-hogar-accesorios",
+      "menu-item#category-hogar-almacenamiento",
+      "menu-item#category-hogar-ambientacion",
+      "menu-item#category-hogar-articulo-de-mesa",
+      "menu-item#category-hogar-articulos-llevar",
+      "menu-item#category-hogar-baño",
+      "menu-item#category-hogar-cesta",
+      "menu-item#category-hogar-cocina",
+      "menu-item#category-hogar-bbq",
+      "menu-item#category-hogar-decoracion",
+      "menu-item#category-hogar-almohadas-y-cojines",
+      "menu-item#category-hogar-electro",
+      "menu-item#category-hogar-herramientas",
+      "menu-item#category-hogar-lavanderia",
+      "menu-item#category-hogar-limpieza"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menu-movil"
+    }
+    },
+  "menu#deporte": {
+    "children": [
+        "rich-text#deportes",
+        "menu-item#category-gym",
+        "menu-item#category-yoga",
+        "menu-item#category-natacion",
+        "menu-item#category-Ciclismo"
+      ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menu-movil"
+    }
+  },
+  "menu#estacional": {
+    "children": [
+      "rich-text#Estacional",
+      "menu-item#category-invierno",
+      "menu-item#category-verano"
+      ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menu-movil"
+    }
+  },
+  "menu#jugueteria": {
+    "children": [
+      "rich-text#Jugueteria",
+      "menu-item#category-jugetes-deportes",
+      "menu-item#category-jugetes-destrezas",
+      "menu-item#category-jugetes-didacticos",
+      "menu-item#category-jugetes-electricos",
+      "menu-item#category-jugetes-figura",
+      "menu-item#category-jugetes-juegos-de-mesa",
+      "menu-item#category-jugetes-juego-de-rol",
+      "menu-item#category-jugetes-exteriores",
+      "menu-item#category-jugetes-moldeables",
+      "menu-item#category-jugetes-muñecas",
+      "menu-item#category-jugetes-musicales",
+      "menu-item#category-jugetes-peluches",
+      "menu-item#category-jugetes-vehiculos"
+
+      ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menu-movil"
+    }
+  },
+
+  "menu#mascotas": {
+    "children": [
+      "rich-text#Mascota",
+      "menu-item#category-mascota-accesorios",
+      "menu-item#category-mascota-alimentacion",
+      "menu-item#category-mascota-diversion",
+      "menu-item#category-mascota-higiene",
+      "menu-item#category-mascota-comodidad"
+      ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menu-movil"
+    }
+  },
+  "menu#bellezaybienestar": {
+    "children": [
+      "rich-text#BellezayBienestar",
+      "menu-item#category-hogar-accesorios-maquillaje",
+      "menu-item#category-hogar-cuidadobucal",
+      "menu-item#category-hogar-cuidadocabello",
+      "menu-item#category-hogar-cuidadocorporal",
+      "menu-item#category-hogar-cuidadofacial",
+      "menu-item#category-hogar-fragancias",
+      "menu-item#category-hogar-manosypies",
+      "menu-item#category-hogar-maquillaje",
+      "menu-item#category-hogar-prevencionycuidado"
+
+      ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menu-movil"
+    }
+  },
+  "menu#tecnologia": {
+    "children": [
+      "rich-text#Tecnologia",
+      "menu-item#category-accesoriosmoviles",
+      "menu-item#category-audio",
+      "menu-item#category-cargadores",
+      "menu-item#category-computacion"
+      ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menu-movil"
+    }
+  },
+  "menu#papeleria": {
+    "children": [
+      "rich-text#Papeleria",
+      "menu-item#category-envolturasregalo",
+      "menu-item#category-escritura",
+      "menu-item#category-kitspapeleria",
+      "menu-item#category-libretasyapuntes",
+      "menu-item#category-utiles"
+      ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menu-movil"
+    }
+  },
+  "rich-text#accesorios": {
+    "props": {
+      "text":"ACCESORIOS",
+      "blockClass": "textosYoi"
+    }
+  },
+  "rich-text#Hogar": {
+    "props": {
+      "text":"HOGAR",
+      "blockClass": "textosYoi"
+    }
+  },
+  "rich-text#deportes": {
+    "props": {
+      "text":"DEPORTES",
+      "blockClass": "textosYoi"
+    }
+  },
+  "rich-text#Estacional": {
+    "props": {
+      "text":"ESTACIONAL",
+      "blockClass": "textosYoi"
+    }
+  },
+  "rich-text#Jugueteria": {
+    "props": {
+      "text":"JUGUETERÍA",
+      "blockClass": "textosYoi"
+    }
+  },
+  "rich-text#Mascota": {
+    "props": {
+      "text":"MASCOTAS",
+      "blockClass": "textosYoi"
+    }
+  },
+  "rich-text#BellezayBienestar": {
+    "props": {
+      "text":"BELLEZA Y BIENESTAR",
+      "blockClass": "textosYoi"
+    }
+  },
+  "rich-text#Tecnologia": {
+    "props": {
+      "text":"TECNOLOGÍA",
+      "blockClass": "textosYoi"
+    }
+  },
+  "rich-text#Papeleria": {
+    "props": {
+      "text":"PAPELERÍA",
+      "blockClass": "textosYoi"
+    }
+  }
+}

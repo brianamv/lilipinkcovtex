@@ -1,0 +1,119 @@
+{
+  "store.custom.politica-cambios-garantias-lili": {
+    "blocks": [
+      "flex-layout.row#politicaGaramtiaLili"
+    ]
+  },
+  "flex-layout.row#politicaGaramtiaLili": {
+    "props": {
+      "blockClass": "margenLanding",
+      "marginBottom":8
+    },
+    "children": [
+      "flex-layout.col#politicaGaramtiaLili"
+    ]
+  },
+  "flex-layout.col#politicaGaramtiaLili": {
+    "children": [
+      "rich-text#politicaDeGarantiayCambioLilipink",
+      "rich-text#politicaDeGarantiayCambioLilipinkInfo",
+      "rich-text#politicaComercial",
+      "rich-text#politicaComercialInfo",
+      "rich-text#politicaGarantia",
+      "rich-text#politicaComercialInfo2",
+      "rich-text#politicaRetracto",
+      "rich-text#politicaComercialInfo3",
+      "rich-text#politicaReversion",
+      "rich-text#politicaComercialInfo4",
+      "rich-text#posventa",
+      "rich-text#politicaComercialInfo5"
+
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#politicaDeGarantiayCambioLilipink": {
+    "props": {
+      "text": "POLÍTICA DE CAMBIOS Y GARANTÍAS LILI PINK",
+      "textPosition": "CENTER",
+      "blockClass": "titulo-landing"
+    }
+  },
+  "rich-text#politicaDeGarantiayCambioLilipinkInfo": {
+    "props": {
+      "text": "LILI PINK es una marca registrada en Colombia y varios otros territorios del mundo, licenciada para su explotación y uso comercial a favor de PINK LIFE S.A.S. identificada con Nit. 900.914.444-4, compañía constituida bajo las leyes colombianas y domiciliada en la carrera 19A N° 196-23 de Bogotá D.C., cuya dirección de contacto electrónico es: servicioalcliente@lilipink.com, y teléfono (1) 6702400 ext. 107 y para los efectos de este contenido, se entenderá como “la empresa”.",
+      "textPosition": "CENTER",
+      "blockClass": "texto-landing"
+    }
+  },
+  "rich-text#politicaComercial": {
+    "props": {
+      "text": "POLÍTICA COMERCIAL DE CAMBIO PRODUCTO.",
+      "blockClass": "Vacantes-izq"
+    }
+  },
+  "rich-text#politicaComercialInfo": {
+    "props": {
+      "text": "\n\nPARA SOLICITAR UN CAMBIO, EL CONSUMIDOR DEBE CUMPLIR CON LOS SIGUIENTES REQUISITOS:\n\n1. Que el producto objeto del cambio NO sea alguno de los siguientes:\n2. Productos de salud personal, o de higiene que al ser usados tengan contacto con la piel y/o el cabello, brassieres, tops, panties, calzoncillos, bóxers, línea de prendas control, fajas, bodys, *Maggia*, línea *secret*, invisible, *silicon soft*, adhesivos, medias, pantumedias, similares, vestidos de baño, línea kids, teen y materna, accesorios de bisutería, sombreros, carteras, gafas, orejeras, audífonos, productos de belleza como maquillaje, fragancias y cuidado corporal.\n3. Que no hayan transcurrido más de 5 días hábiles contados a partir del día de la compra. Para compras realizadas por medios no presenciales, los 5 días se contarán a partir del momento de la entrega del pedido.\n4. Que al momento de la solicitud de cambio, el producto no presente señales de uso y sea devuelto con todos sus empaques, etiquetas y anexos de presentación en perfecto estado.\n5.Que la solicitud de cambio sea realizada en el mismo punto de venta donde fue adquirido el producto.\n6. Que sea presentada la factura de compra.\n\nEl encargado de recibir la solicitud de cambio, validará estas condiciones y si son cumplidas, procederá a gestionar el cambio sin mediar trámite adicional alguno.\n\nPara compras realizadas por medios no presenciales, el usuario podrá exponer su solicitud de cambio o devolución mediante correo electrónico servicioalcliente@lilipink.com, con relación del asunto: “SOLICITUD DE CAMBIO”.\n\nEn caso de aprobación de cambio, la empresa se comunicará con el cliente para establecer parámetros a seguir para el cambio y que sea de común acuerdo y facilidad para ambas partes.\n\nLa empresa se reserva el derecho de contestar favorable o desfavorablemente al consumidor que solicite un cambio teniendo en cuenta además los siguientes escenarios:\n\nPodrán ser realizados cambios por productos del mismo valor, caso en el cual se realiza el cambio y no se genera ningún cobro adicional o devolución, así como se podrán realizar cambios por productos de menor valor, caso en cual la empresa advierte que bajo ninguna circunstancia hará la devolución del dinero, en consecuencia, si el consumidor pretende realizar el cambio por un producto de menor valor, deberá adquirir uno adicional para completar el dinero que pagó originalmente; si por alguna razón el precio incrementa, el usuario deberá pagar el excedente.\n\nBajo ninguna circunstancia la empresa realiza reembolsos por compras realizadas de forma presencial en los puntos de venta, salvo las deficiencias de calidad comprobadas sobre el producto y conforme a la ley 1480 de 2011.   ",
+      "blockClass": "texto-landing"
+    }
+  },
+  "rich-text#politicaGarantia": {
+    "props": {
+      "text": "POLÍTICA DE GARANTÍA.",
+      "blockClass": "Vacantes-izq"
+    }
+  },
+  "rich-text#politicaComercialInfo2": {
+    "props": {
+      "text": "\n\nPARA EJERCER EL DERECHO A LA GARANTÍA  EL CONSUMIDOR DEBE TENER EN CUENTA LAS SIGUIENTES RECOMENDACIONES:\n\nGARANTÍA DE LOS PRODUCTOS.\n\nEl término de la garantía de todos los productos es de 30 días calendario contados a partir del momento en que se realice la compra. Para compras realizadas por medios no presenciales, los 30 días se contarán a partir del momento de la entrega del pedido.\n 1. El producto debió recibir un uso y lavado conforme a las instrucciones en la etiqueta o instrucciones de uso, según sea el caso.\n 2. El consumidor debe tener en cuenta el plazo de garantía, para tener la seguridad que se encuentre vigente al momento de solicitarla.\n 3. No es necesario presentar tu factura, pero sí debe informar al momento de realizar la reclamación por garantía, la fecha y punto de venta de la compra y el valor exacto por el cual la factura fue emitida la misma.\n 4. No se acepta que sean dejados en puntos de venta físicos, productos usados salvo autorización de parte de la empresa, que medie en el proceso de una reclamación; caso en el cual, para la recepción del artículo, este debe encontrarse limpio, y sin ningún tipo de alteración con accesorios y medidas originales. Estas condiciones son sujetas a verificación y si a consideración del encargado, no cumplen estas condiciones, podrá negarse a recibirlo, hasta tanto, sea recibido en las condiciones que se solicitan.\n 5. Para ejercer el derecho a la garantía basta con que el consumidor efectúe un registro fotográfico detallado del inconveniente sobre el producto y realice por escrito la reclamación en el email: servicioalcliente@lilipink.com; si no tiene facilidad de enviar un email, podrá solicitar en cualquier punto de venta LILI PINK, un formato para diligenciar, el encargado, al momento de recibir la solicitud de garantía, podrá orientar su diligenciamiento, incluso podrá ayudar a tomar el registro fotográfico solicitado.\n 6. Posteriormente, y una vez recibida la reclamación, el producto será revisado por el departamento de calidad y le daremos respuesta en 15 días hábiles. En caso de que la prenda permita reparación, la misma será reparada, o de lo contrario se procederá a su cambio, si no puede reponerse se procederá con el reembolso.\n 7. El equipo encargado efectuará un análisis del artículo con el registro fotográfico enviado o tomado en la tienda y el estado del mismo para decidir atendiendo lo dispuesto en las reglas contenidas en la ley 1480 de 2011 y sus decretos reglamentarios. El área de servicio al cliente emitirá una respuesta de fondo por escrito dentro de los 15 días hábiles a su presentación.\n 8. En caso que la empresa requiera más información, el plazo anteriormente señalado, quedará suspendido hasta tanto sea contestado por el consumidor tal requerimiento; el cual, en caso de no recibirse una respuesta, faculta a la empresa para abstenerse de dar una respuesta de fondo.\n 9. En caso que la empresa requiera más tiempo del previsto en la ley para emitir una respuesta de fondo al consumidor, esta se obliga a informar al interesado, dejando una fecha límite de respuesta que en ningún caso podrá superar los 30 días hábiles contados a partir de recibida la reclamación.\n 10. En los casos que aplique la reparación del producto, se solicitará dejarlo en punto de venta de preferencia del consumidor, en cuyo caso, este término podrá ampliarse hasta máximo 30 días calendario. La efectividad de la garantía del artículo reparado tendrá un término de 15 días calendario, cuyo cómputo empezará a partir del día de recogido el artículo en el punto de venta.\n 11. No son motivos de garantía los siguientes:\n1. Daños ocasionados por desgaste natural, uso, lavado excesivo o inadecuado.\n2. Abrasión o uso inadecuado del producto, maltrato como raspaduras, ralladuras o modificaciones producidas en el uso.\n3. Alteraciones por productos químicos como tintes o procesos de teñido en la elaboración del producto.\n4. Margen de tolerancia respecto a la tabla de medidas entregada previamente.",
+      "blockClass": "texto-landing"
+    }
+  },
+  "rich-text#politicaRetracto": {
+    "props": {
+      "text": "POLÍTICA DE RETRACTO",
+      "blockClass": "Vacantes-izq"
+    }
+  },
+  "rich-text#politicaComercialInfo3": {
+    "props": {
+      "text": "\n\nLos usuarios de canales de compra no presenciales, tienen el derecho al retracto por virtud del del artículo 47 de la ley 1480 de 2011; **el término máximo para ejercer este derecho, es de 5 días hábiles contados a partir de la entrega del producto**. El producto deberá ser devuelto en las mismas condiciones en que lo recibió. Los costos de transporte y demás, incurridos en la devolución serán asumidos por el usuario.\n\nPara gestionar la devolución del dinero el usuario deberá enviar un correo electrónico a servicioalcliente@lilipink.com, colocando en asunto: “DERECHO DE RETRACTO y el número de cédula del comprador”.\n\nDe acuerdo con el numeral 7 del artículo 47 de la ley 1480 de 2011, **se exceptúan del derecho de retracto los productos identificados a continuación:**\n\n**Productos de uso personal**: Entiéndase como todos aquellos productos que para su uso, deben tener contacto con la piel o el cabello sin limitarse:productos de salud, o de higiene, brassieres, tops, panties, calzoncillos, bóxers, línea de prendas control, fajas, bodys,Maggia, línea secret, invisible, silicon soft, adhesivos, medias, pantumedias, similares, vestidos de baño, línea kids, teen y materna, accesorios de bisutería, sombreros, carteras, gafas, orejeras, audífonos, productos de belleza como maquillaje, fragancias y cuidado corporal.\n\nEn caso de cumplir con las condiciones mencionadas, la empresa devolverá la suma total pagada, sin descuentos o retenciones; sin embargo se reitera que en caso de ser aplicable el derecho al retracto, el usuario deberá asumir el costo del transporte por envío, y el término para la devolución del dinero no podrá exceder de 30 días calendario.",
+      "blockClass": "texto-landing"
+    }
+  },
+  "rich-text#politicaReversion": {
+    "props": {
+      "text": "POLÍTICA DE REVERSIÓN",
+      "blockClass": "Vacantes-izq"
+    }
+  },
+  "rich-text#politicaComercialInfo4": {
+    "props": {
+      "text": "\n\nLos usuarios de canales de compra no presenciales, tienen el derecho a la reversión de los pagos realizados a través una tarjeta de crédito, débito o cualquier otro instrumento de pago electrónico, la empresa y la entidad bancaria emisora del medio de pago, estará obligada a facilitar los medios para reversar los pagos que solicite el usuario cuando sea objeto de fraude, o corresponda a una operación no solicitada, o el producto adquirido no sea recibido, o el producto entregado no corresponda a lo solicitado o sea defectuoso.\n\nLa reversión del pago, es un derecho de los consumidores que compran productos a través de comercio electrónico y canales no presenciales, permitiéndoles solicitar el reembolso de lo pagado, a cambio de la devolución del producto comprado (cuando aplique), siempre que se presente alguno de los siguientes casos y se cumplan algunos requisitos:\n\n1. Cuando el producto comprado no haya sido entregado en la fecha programada de entrega que el cliente seleccionó al realizar su compra.\n2. Cuando el producto entregado no corresponda al comprado, no cumpla con las características atribuidas por la información que se suministró sobre éste o las que son propias del mismo.\n3. Cuando el producto entregado sea defectuoso o no tenga la idoneidad para su uso.\n4. Cuando el consumidor haya sido víctima de un fraude.\n5. Cuando el cargo o pago por los productos corresponda a una operación que no haya sido solicitada por el consumidor.\n\nLos requisitos para que aplique la reversión serán:\n1. Que la compra se haya realizado por un canal de venta no presencial, es decir, cualquier medio diferente a la compra realizada en punto de venta.\n2. La compra debe haberse pagado utilizando tarjeta de crédito, débito o cualquier otro instrumento de pago electrónico.\n3. Presentar la solicitud de Reversión oportunamente. Es decir, dentro de los cinco (5) días hábiles siguientes a:\n 1. La fecha en que el cliente debió recibir el producto, de acuerdo a la fecha programada de entrega que seleccionó al realizar su compra, ante cualquier novedad en la entrega.\n 2. La fecha en que el cliente recibió un producto de la empresa que resultó defectuoso o que no correspondía al que efectivamente adquirió\n 3. La fecha en que el cliente se enteró de que fue víctima de una operación fraudulenta o un pago que no fue solicitado por él.\n4. El usuario deberá presentar la reclamación ante la empresa al correo electrónico: servicioalcliente@lilipink.com colocando en asunto: “REVERSIÓN DE PAGO”, y en el cuerpo del texto del mensaje señalar su nombre completo, número de cédula, teléfono de contacto, relato sucinto de las motivaciones por las cuales ejerce la reversión, Valor por el cual solicita la reversión y la totalidad de los datos de la transacción realizada, incluyendo los datos de cuenta, banco e información del instrumento de pago al que fue cargada la operación.\n5. Devolver el producto en las mismas condiciones que fue recibido, a la transportadora delegada por la empresa en caso de haberlo recibido.\n6. Notificar la reclamación al emisor del instrumento de pago electrónico utilizado para realizar la compra, el cual, en conjunto con los demás participantes del proceso de pago, procederán a reversar la transacción al comprador.   ",
+      "blockClass": "texto-landing"
+    }
+  },
+  "rich-text#posventa": {
+    "props": {
+      "text": "POSTVENTA",
+      "blockClass": "Vacantes-izq"
+    }
+  },
+  "rich-text#politicaComercialInfo5": {
+    "props": {
+      "text": "\n\nEl contacto del prestador de los servicios posventa y la forma de acceder a dicha prestación, es el correo electrónico: servicioalcliente@lilpink.com",
+      "blockClass": "texto-landing"
+    }
+  }
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,226 @@
+{
+  "element-wrapper.footer-lilipink": {
+    "children": ["footer"],
+    "props": {
+      "blockClass": "header-lilipink"
+    }
+  },
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile#lili"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#footer-3-desktop"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "footer-spacer",
+      "vtex.menu@2.x:menu#Products",
+      "footer-spacer",
+      "vtex.menu@2.x:menu#footer-decoration",
+      "footer-spacer",
+      "vtex.menu@2.x:menu#footer-Atención-al-cliente",
+      "footer-spacer"
+
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 6
+    }
+  },
+
+
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+
+      "flex-layout.row#imagenes-tarjetas",
+      "flex-layout.row#imagenes-tarjetas-2",
+      "flex-layout.row#imagenes-tarjetas-3",
+      "flex-layout.row#imagenes-tarjetas-4",
+      "flex-layout.row#imagenes-tarjetas-5",
+      "flex-layout.row#imagenes-tarjetas-6",
+      "flex-layout.row#imagenes-tarjetas-7",
+      "flex-layout.row#imagenes-tarjetas-8"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.row#imagenes-tarjetas": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#tarjetas"]
+  },
+  "image#tarjetas": {
+    "props": {      
+      "blockClass":"payment-methods",
+      "src": "assets/efecty.png"
+    }
+  },
+  "flex-layout.row#imagenes-tarjetas-2": {
+    "props": {
+      "blockClass":"payment-methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#tarjetas-2"]
+  },
+  "image#tarjetas-2": {
+    "props": {      
+      "blockClass":"payment-methods",
+      "src": "assets/DAVIVIENDA.png"
+    }
+  },
+  "flex-layout.row#imagenes-tarjetas-3": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#tarjetas-3"]
+  },
+  "image#tarjetas-3": {
+    "props": {      
+      "blockClass":"payment-methods",
+      "src": "assets/PSE.png"
+    }
+  },
+  "flex-layout.row#imagenes-tarjetas-4": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#tarjetas-4"]
+  },
+  "image#tarjetas-4": {
+    "props": {
+      "blockClass":"payment-methods",
+      "src": "assets/VISA.png"
+    }
+  },
+  "flex-layout.row#imagenes-tarjetas-5": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#tarjetas-5"]
+  },
+  "image#tarjetas-5": {
+    "props": {
+      "blockClass":"payment-methods",
+      "src": "assets/MASTERCARD.png"
+    }
+  },
+  "flex-layout.row#imagenes-tarjetas-6": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#tarjetas-6"]
+  },
+  "image#tarjetas-6": {
+    "props": {
+      "blockClass":"payment-methods",
+      "src": "assets/CODENSA.png"
+    }
+  },
+  "flex-layout.row#imagenes-tarjetas-7": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#tarjetas-7"]
+  },
+  "image#tarjetas-7": {
+    "props": {
+      "blockClass":"payment-methods",
+      "src": "assets/DINERS-CLUB.png"
+    }
+  },
+  "flex-layout.row#imagenes-tarjetas-8": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#tarjetas-8"]
+  },
+  "image#tarjetas-8": {
+    "props": {
+      "blockClass":"payment-methods",
+      "src": "assets/AMERICAN.png"
+    }
+  },
+  "flex-layout.row#footer-3-desktop": {
+    "children": ["rich-text#footer"],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "",
+      "blockClass": "footercopyright"
+    }
+  },
+
+  "footer-layout.mobile#lili": {
+    "children": [
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile"
+    ]
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": ["flex-layout.col#footer-1-mobile"],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "flex-layout.row#footer-2-logosmobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "flex-layout.row#footer-2-logosmobile":{
+    "props":{
+      "blockClass":"payment-methods",
+      "preventHorizontalStretch":true,
+      "preventVerticalStretch":true	
+    },
+    "children":[
+      "image#tarjetas",
+      "image#tarjetas-2",
+      "image#tarjetas-3",
+      "image#tarjetas-4",
+      "image#tarjetas-5",
+      "image#tarjetas-6",
+      "image#tarjetas-7",
+      "image#tarjetas-8"
+      
+    ]
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "blockClass": "mobilefooter"
+
+    },
+    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+  }
+}

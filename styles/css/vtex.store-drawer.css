@@ -1,0 +1,23 @@
+.openIconContainer{
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 0;
+    padding-left: 1rem;
+}
+.openIconContainer--hamburguer{
+    padding: 1rem;
+    border-bottom: none;
+}
+.drawerHeader--hamburguer .closeIconButton{
+    font-family: 'Monserrat-regular';
+    margin-left: 6px;
+}
+.drawerHeader--hamburguer::before{
+    content: "\ea40";
+    font-size: 1.3rem;
+    font-family: iconos-extra;
+    color: #e4147e;
+    position: relative;
+    padding-left: 1rem;
+    margin: auto 0;
+}

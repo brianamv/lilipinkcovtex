@@ -1,0 +1,19 @@
+.minicartCheckoutButton :global(.vtex-button){
+    border-radius: 0px !important;
+    border: solid 1px #000 !important;
+}
+.drawerContent{
+    overflow-y: hidden;
+}
+.minicartCheckoutButton{
+    margin-bottom: 50px;
+}
+.minicartCheckoutButton :global(.vtex-button__label)::before{
+    content:"IR A PAGAR";
+    font-size: 15px;
+}
+.minicartCheckoutButton :global(.vtex-button__label){
+font-size: 0px;}
+.minicartTitle{
+    color: #757575;
+}

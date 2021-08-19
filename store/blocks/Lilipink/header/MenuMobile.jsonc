@@ -1,0 +1,1458 @@
+{
+  "drawer#lili": {
+    "props": {
+      "blockClass": "hamburguer"
+    },
+    "children": [
+      "menu#nivel-1-lili"
+    ]
+  },
+  "drawer-header#menuprincipal": {
+    "props": {
+      "blockClass": "hamburguer"
+    },
+    "children": [
+      "drawer-close-button#menuprincipal"
+    ]
+  },
+  "drawer-close-button#menuprincipal": {
+    "props": {
+      "text": "Menú principal"
+    }
+  },
+  "drawer-header#volver": {
+    "props": {
+      "blockClass": "hamburguer"
+    },
+    "children": [
+      "drawer-close-button#volver"
+    ]
+  },
+  "drawer-close-button#volver": {
+    "props": {
+      "text": "Volver"
+    }
+  },
+  "menu#nivel-1-lili": {
+    "children": [
+      "drawer#brasieres",
+      "drawer#tops",
+      "drawer#panties",
+      "drawer#kids-teen",
+      "drawer#descanso",
+      "drawer#medias",
+      "drawer#deportivo",
+      "drawer#vestidos",
+      "drawer#belleza",
+      "drawer#outlet",
+      "drawer#bioseguridad",
+      "menu-item#socialseller",
+      "menu-item#tiendas"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#brasieres": {
+    "children": [
+      "menu#brasieres"
+    ],
+    "blocks": ["drawer-trigger#brasieres", "drawer-header#menuprincipal"]
+  },
+  "drawer-trigger#brasieres": {
+    "children": ["rich-text#brasieres"]
+  },
+  "rich-text#brasieres": {
+    "props": {
+      "text": "BRASIERES",
+      "blockClass": "trigger-movil"
+    }
+  },
+  "rich-text#brasier": {
+    "props": {
+      "text": "BRASIERES",
+      "blockClass": "textosYoi"
+    }
+  },
+  "menu#brasieres": {
+    "children": [
+      "rich-text#brasier",
+      "drawer#brasieres-buscar",
+      "drawer#brasieres-estilos",
+      "drawer#brasieres-material",
+      "drawer#brasieres-ahorra"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#brasieres-buscar": {
+    "children": ["menu#brasieres-buscar"],
+    "blocks": ["drawer-trigger#buscar","drawer-header#volver"]
+  },
+  "drawer-trigger#buscar": {
+    "children": ["rich-text#buscar"]
+  },
+  "rich-text#buscar": {
+    "props": {
+      "text": "BUSCAR",
+      "blockClass": "trigger-movil"
+    }
+  },
+  "menu#brasieres-buscar": {
+    "children": [
+      "rich-text#brasier",
+      "menu-item#category-brasieres-Ver_todo",
+      "menu-item#category-brasieres-Lo_mas_Vendido",
+      "menu-item#category-brasieres-nuevos",
+      "menu-item#category-brasieres-Ofertas"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+
+  //
+  "drawer#brasieres-estilos": {
+    "children": ["menu#brasieres-estilos"],
+    "blocks": ["drawer-trigger#estilos","drawer-header#menuprincipal"]
+  },
+  "drawer-trigger#estilos": {
+    "children": ["rich-text#estilos"]
+  },
+  "rich-text#estilos": {
+    "props": {
+      "text": "ESTILOS",
+      "blockClass": "trigger-movil"
+    }
+  },
+  "menu#brasieres-estilos": {
+    "children": [
+      "rich-text#brasier",
+      "menu-item#category-brasieres-bralette",
+      "menu-item#category-brasieres-con-copa",
+      "menu-item#category-brasieres-bustier",
+      "menu-item#category-brasieres-deportivo",
+      "menu-item#category-brasieres-materno",
+      "menu-item#category-brasieres-secret",
+      "menu-item#category-brasieres-strapless",
+      "menu-item#category-brasieres-sin-varilla",
+      "menu-item#category-brasieres-conjuntos"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#brasieres-material": {
+    "children": ["menu#brasieres-material"],
+    "blocks": ["drawer-trigger#material","drawer-header#volver"]
+  },
+  "drawer-trigger#material": {
+    "children": ["rich-text#material"]
+  },
+  "rich-text#material": {
+    "props": {
+      "text": "MATERIAL",
+      "blockClass": "trigger-movil"
+    }
+  },
+  "menu#brasieres-material": {
+    "children": [
+      "rich-text#brasier",
+      "menu-item#category-brasieres-PushUp_realce",
+      "menu-item#category-brasieres-reduce",
+      "menu-item#category-brasieres-facilitadores-postura",
+      "menu-item#category-brasieres-Post-Quirúrgicos",
+      "menu-item#category-brasieres-Maternidad-y-Lactancia"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#brasieres-ahorra": {
+    "children": ["menu#brasieres-ahorra"],
+    "blocks": ["drawer-trigger#ahorra" ,"drawer-header#menuprincipal"]
+  },
+  "drawer-trigger#ahorra": {
+    "children": ["rich-text#ahorra"]
+  },
+  "rich-text#ahorra": {
+    "props": {
+      "text": "COMPRA MÁS Y AHORRA",
+      "blockClass": "trigger-movil"
+    }
+  },
+  "menu#brasieres-ahorra": {
+    "children": [
+      "rich-text#brasier",
+      "menu-item#category-brasieres-Paquete-x-2",
+      "menu-item#category-brasieres-Paquete-x-3",
+      "menu-item#category-brasieres-Paquete-x-4"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#tops": {
+    "children": [
+      "menu#tops"
+    ],
+    "blocks": ["drawer-trigger#tops","drawer-header#volver"]
+  },
+  "drawer-trigger#tops": {
+    "children": ["rich-text#tops"]
+  },
+  "rich-text#tops": {
+    "props": {
+      "text": "TOPS",
+      "blockClass": "trigger-movil"
+    }
+  },
+  "rich-text#top": {
+    "props": {
+      "text": "TOPS",
+      "blockClass": "textosYoi"
+    }
+  },
+  "menu#tops": {
+    "children": [
+      "rich-text#top",
+      "drawer#tops-buscar",
+      "drawer#tops-estilos",
+      "drawer#tops-material",
+      "drawer#tops-ahorra"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  "drawer#tops-buscar": {
+    "children": ["menu#tops-buscar"],
+    "blocks": ["drawer-trigger#buscar","drawer-header#menuprincipal"]
+  },
+  "menu#tops-buscar": {
+    "children": [
+      "rich-text#top",
+      "menu-item#category-tops-Ver_todo",
+      "menu-item#category-tops-Lo_mas_Vendido",
+      "menu-item#category-tops-nuevosbrasieresybralettes",
+      "menu-item#category-tops-Ofertas"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+
+  //
+  "drawer#tops-estilos": {
+    "children": ["menu#tops-estilos"],
+    "blocks": ["drawer-trigger#estilos","drawer-header#volver"]
+  },
+  "menu#tops-estilos": {
+    "children": [
+      "rich-text#top",
+      "menu-item#category-tops-Crop-Top",
+      "menu-item#category-tops-Deportivo",
+      "menu-item#category-tops-Halter",
+      "menu-item#category-tops-Racerback",
+      "menu-item#category-tops-Surtidotops",
+      "menu-item#category-tops-Tanktop",
+      "menu-item#category-tops-Top",
+      "menu-item#category-tops-Sin-Copa",
+      "menu-item#category-tops-Copa-Removible"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#tops-material": {
+    "children": ["menu#tops-material"],
+    "blocks": ["drawer-trigger#material","drawer-header#volver"]
+  },
+  "menu#tops-material": {
+    "children": [
+      "rich-text#top",
+      "menu-item#category-tops-Algodon",
+      "menu-item#category-tops-Encaje",
+      "menu-item#category-tops-Microfibra",
+      "menu-item#category-tops-Seamless",
+      "menu-item#category-tops-Surtido",
+      "menu-item#category-tops-Mesh"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#tops-ahorra": {
+    "children": ["menu#tops-ahorra"],
+    "blocks": ["drawer-trigger#ahorra","drawer-header#volver"]
+  },
+  "menu#tops-ahorra": {
+    "children": [
+      "rich-text#top",
+      "menu-item#category-tops-paquetex4",
+      "menu-item#category-tops-pague1lleve3",
+      "menu-item#category-tops-paquetex3",
+      "menu-item#category-tops-Beneficios",
+      "menu-item#category-tops-Sin-Costuras",
+      "menu-item#category-tops-Corte-Laser-Termofusionado"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#panties": {
+    "children": [
+      "menu#panties"
+    ],
+    "blocks": ["drawer-trigger#panties","drawer-header#menuprincipal"]
+  },
+  "drawer-trigger#panties": {
+    "children": ["rich-text#panties"]
+  },
+  "rich-text#panties": {
+    "props": {
+      "text": "PANTIES",
+      "blockClass": "trigger-movil"
+    }
+  },
+  "rich-text#pantie": {
+    "props": {
+      "text": "PANTIES",
+      "blockClass": "textosYoi"
+    }
+  },
+  "menu#panties": {
+    "children": [
+      "rich-text#pantie",
+      "drawer#panties-buscar",
+      "drawer#panties-estilos",
+      "drawer#panties-material",
+      "drawer#panties-ahorra"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  "drawer#panties-buscar": {
+    "children": ["menu#panties-buscar"],
+    "blocks": ["drawer-trigger#buscar","drawer-header#volver"]
+  },
+  "menu#panties-buscar": {
+    "children": [
+      "rich-text#pantie",
+      "menu-item#category-panties-Ver_todo",
+      "menu-item#category-panties-Lo_mas_Vendido",
+      "menu-item#category-panties-Nuevos-Panties",
+      "menu-item#category-panties-Ofertas"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+
+  //
+  "drawer#panties-estilos": {
+    "children": ["menu#panties-estilos"],
+    "blocks": ["drawer-trigger#estilos","drawer-header#volver"]
+  },
+  "menu#panties-estilos": {
+    "children": [
+      "rich-text#pantie",
+      "menu-item#category-panties-bikini",
+      "menu-item#category-panties-boxer",
+      "menu-item#category-panties-brasilera",
+      "menu-item#category-panties-clasico",
+      "menu-item#category-panties-culotte",
+      "menu-item#category-panties-hipster"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#panties-material": {
+    "children": ["menu#panties-material"],
+    "blocks": ["drawer-trigger#material"]
+  },
+  "menu#panties-material": {
+    "children": [
+      "rich-text#pantie",
+      "menu-item#category-panties-Invisibles",
+      "menu-item#category-panties-Reducción-y-Control",
+      "menu-item#category-panties-Levanta-Colas",
+      "menu-item#category-panties-Postparto",
+      "menu-item#category-panties-Panties-Postoperatorios"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#panties-ahorra": {
+    "children": ["menu#panties-ahorra"],
+    "blocks": ["drawer-trigger#ahorra","drawer-header#volver"]
+  },
+  "menu#panties-ahorra": {
+    "children": [
+      "rich-text#pantie",
+      "menu-item#category-panties-Individual",
+      "menu-item#category-panties-Paquete-x-2",
+      "menu-item#category-panties-Paquete-x-3",
+      "menu-item#category-panties-Paquete-x-4",
+      "menu-item#category-panties-Semanario"
+
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#kids-teen": {
+    "children": [
+      "menu#kids-teen"
+    ],
+    "blocks": ["drawer-trigger#kids-teen","drawer-header#menuprincipal"]
+  },
+  "drawer-trigger#kids-teen": {
+    "children": ["rich-text#kids-teen"]
+  },
+  "rich-text#kids-teen": {
+    "props": {
+      "text": "KIDS & TEEN",
+      "blockClass": "trigger-movil"
+    }
+  },
+  "rich-text#kid-teen": {
+    "props": {
+      "text": "KIDS & TEEN",
+      "blockClass": "textosYoi"
+    }
+  },
+  "menu#kids-teen": {
+    "children": [
+      "rich-text#kid-teen",
+      "drawer#kids-teen-girl",
+      "drawer#kids-teen-junior",
+      "drawer#kids-teen-teen"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#kids-teen-girl": {
+    "children": [
+      "menu#kids-teengirl"
+    ],
+    "blocks": ["drawer-trigger#kids-teengirl","drawer-header#volver"]
+  },
+  "drawer-trigger#kids-teengirl": {
+    "children": ["rich-text#kids-teengirl"]
+  },
+  "rich-text#kids-teengirl": {
+    "props": {
+      "text": "GIRL",
+      "blockClass": "trigger-movil"
+    }
+  },
+  "menu#kids-teengirl": {
+    "children": [
+      "rich-text#kid-teen",
+      "drawer#kids-teengirl-buscar",
+      "drawer#kids-teengirl-estilos",
+      "drawer#kids-teengirl-material",
+      "drawer#kids-teengirl-ahorra"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#kids-teengirl-buscar": {
+    "children": [
+      "menu#kids-teengirl-buscar"
+    ],
+    "blocks": ["drawer-trigger#buscar","drawer-header#volver"]
+  },
+  "menu#kids-teengirl-buscar": {
+    "children": [
+      "rich-text#kid-teen",
+      "rich-text#titulo-arriba",
+      "menu-item#category-kids-girl-arriba-Ver_todo",
+      "menu-item#category-kids-girl-arriba-Lo_mas_Vendido",
+      "menu-item#category-kids-girl-arriba-NuevosKids&Teen",
+      "menu-item#category-kids-girl-arriba-descuentos",
+      "rich-text#titulo-abajo",
+      "menu-item#category-kids-girl-abajo-Ver-Todo",
+      "menu-item#category-kids-girl-abajo-Lo-Mas_Vendido",
+      "menu-item#category-kids-girl-abajo-Nuevos-inferior",
+      "menu-item#category-kids-girl-abajo-Descuentos-inferior"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+
+  //
+  "drawer#kids-teengirl-estilos": {
+    "children": ["menu#kids-teengirl-estilos"],
+    "blocks": ["drawer-trigger#estilos","drawer-header#volver"]
+  },
+  "menu#kids-teengirl-estilos": {
+    "children": [
+      "rich-text#kid-teen",
+      "rich-text#titulo-arriba",
+      "menu-item#category-kids-girl-arriba-crop-top",
+      "menu-item#category-kids-girl-arriba-deportivo",
+      "menu-item#category-kids-girl-arriba-halter",
+      "menu-item#category-kids-girl-arriba-racerback",
+      "menu-item#category-kids-girl-arriba-surtido",
+      "menu-item#category-kids-girl-arriba-tanktop",
+      "menu-item#category-kids-girl-arriba-top",
+      "rich-text#titulo-abajo",
+      "menu-item#category-kids-girl-abajo-boxer",
+      "menu-item#category-kids-girl-abajo-clasico",
+      "menu-item#category-kids-girl-abajo-hipster",
+      "menu-item#category-kids-girl-abajo-surtido-inferior"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#kids-teengirl-material": {
+    "children": ["menu#kids-teengirl-material"],
+    "blocks": ["drawer-trigger#material","drawer-header#volver"]
+  },
+  "menu#kids-teengirl-material": {
+    "children": [
+      "rich-text#kid-teen",
+      "rich-text#titulo-arriba",
+      "menu-item#category-kids-girl-arriba-algodon-superior",
+      "menu-item#category-kids-girl-arriba-seamless-superior",
+      "menu-item#category-kids-girl-arriba-surtido-superior",
+      "rich-text#titulo-abajo",
+      "menu-item#category-kids-girl-abajo-material-algodon-inferior",
+      "menu-item#category-kids-girl-abajo-material-seamless-inferior",
+      "menu-item#category-kids-girl-abajo-material-surtido-inferior"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#kids-teengirl-ahorra": {
+    "children": ["menu#kids-teengirl-ahorra"],
+    "blocks": ["drawer-trigger#ahorra","drawer-header#volver"]
+  },
+  "menu#kids-teengirl-ahorra": {
+    "children": [
+      "rich-text#kid-teen",
+      "rich-text#titulo-arriba",
+      "menu-item#category-kids-girl-arriba-individual-superior",
+      "menu-item#category-kids-girl-arriba-paquete-x2-superior-col4",
+      "rich-text#titulo-abajo",
+      "menu-item#category-kids-girl-abajo-individual-inferior",
+      "menu-item#category-kids-girl-abajo-paquete-x2-inferior",
+      "menu-item#category-kids-girl-abajo-paquete-x3-inferior",
+      "menu-item#category-kids-girl-abajo-paquete-x4-inferior",
+      "menu-item#category-kids-girl-abajo-semanario-inferior"
+
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  "drawer#kids-teen-junior": {
+    "children": [
+      "menu#kids-teenjunior"
+    ],
+    "blocks": ["drawer-trigger#kids-teenjunior","drawer-header#volver"]
+  },
+  "drawer-trigger#kids-teenjunior": {
+    "children": ["rich-text#kids-teenjunior"]
+  },
+  "rich-text#kids-teenjunior": {
+    "props": {
+      "text": "JUNIOR",
+      "blockClass": "trigger-movil"
+    }
+  },
+  "menu#kids-teenjunior": {
+    "children": [
+      "rich-text#kid-teen",
+      "drawer#kids-teenjunior-buscar",
+      "drawer#kids-teenjunior-estilos",
+      "drawer#kids-teenjunior-material",
+      "drawer#kids-teenjunior-ahorra"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#kids-teenjunior-buscar": {
+    "children": [
+      "menu#kids-teenjunior-buscar"
+    ],
+    "blocks": ["drawer-trigger#buscar","drawer-header#volver"]
+  },
+  "menu#kids-teenjunior-buscar": {
+    "children": [
+      "rich-text#kid-teen",
+      "rich-text#titulo-arriba",
+      "menu-item#category-kids-junior-arriba-Ver_todo",
+      "menu-item#category-kids-junior-arriba-Lo_mas_Vendido",
+      "menu-item#category-kids-junior-arriba-NuevosKids&Teen",
+      "menu-item#category-kids-junior-arriba-descuentos",
+      "rich-text#titulo-abajo",
+      "menu-item#category-kids-junior-abajo-Ver-Todo",
+      "menu-item#category-kids-junior-abajo-Lo-Mas_Vendido",
+      "menu-item#category-kids-junior-abajo-Nuevos-inferior",
+      "menu-item#category-kids-junior-abajo-Descuentos-inferior"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+
+  //
+  "drawer#kids-teenjunior-estilos": {
+    "children": ["menu#kids-teengirl-estilos"],
+    "blocks": ["drawer-trigger#estilos","drawer-header#volver"]
+  },
+  "menu#kids-teenjunior-estilos": {
+    "children": [
+      "rich-text#kid-teen",
+      "rich-text#titulo-arriba",
+      "menu-item#category-kids-junior-arriba-crop-top",
+      "menu-item#category-kids-junior-arriba-deportivo",
+      "menu-item#category-kids-junior-arriba-halter",
+      "menu-item#category-kids-junior-arriba-racerback",
+      "menu-item#category-kids-junior-arriba-surtido",
+      "menu-item#category-kids-junior-arriba-tanktop",
+      "menu-item#category-kids-junior-arriba-top",
+      "rich-text#titulo-abajo",
+      "menu-item#category-kids-junior-abajo-boxer",
+      "menu-item#category-kids-junior-abajo-clasico",
+      "menu-item#category-kids-junior-abajo-hipster",
+      "menu-item#category-kids-junior-abajo-surtido-inferior"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#kids-teenjunior-material": {
+    "children": ["menu#kids-teenjunior-material"],
+    "blocks": ["drawer-trigger#material","drawer-header#volver"]
+  },
+  "menu#kids-teenjunior-material": {
+    "children": [
+      "rich-text#kid-teen",
+      "rich-text#titulo-arriba",
+      "menu-item#category-kids-junior-arriba-algodon-superior",
+      "menu-item#category-kids-junior-arriba-seamless-superior",
+      "menu-item#category-kids-junior-arriba-surtido-superior",
+      "rich-text#titulo-abajo",
+      "menu-item#category-kids-junior-abajo-material-algodon-inferior",
+      "menu-item#category-kids-junior-abajo-material-seamless-inferior",
+      "menu-item#category-kids-junior-abajo-material-surtido-inferior"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#kids-teenjunior-ahorra": {
+    "children": ["menu#kids-teengirl-ahorra"],
+    "blocks": ["drawer-trigger#ahorra","drawer-header#volver"]
+  },
+  "menu#kids-teenjunior-ahorra": {
+    "children": [
+      "rich-text#kid-teen",
+      "rich-text#titulo-arriba",
+      "menu-item#category-kids-junior-arriba-individual-superior",
+      "menu-item#category-kids-junior-arriba-paquete-x2-superior-col4",
+      "rich-text#titulo-abajo",
+      "menu-item#category-kids-junior-abajo-individual-inferior",
+      "menu-item#category-kids-junior-abajo-paquete-x2-inferior",
+      "menu-item#category-kids-junior-abajo-paquete-x3-inferior",
+      "menu-item#category-kids-junior-abajo-paquete-x4-inferior",
+      "menu-item#category-kids-junior-abajo-semanario-inferior"
+
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  "drawer#kids-teen-teen": {
+    "children": [
+      "menu#kids-teenteen"
+    ],
+    "blocks": ["drawer-trigger#kids-teenteen","drawer-header#volver"]
+  },
+  "drawer-trigger#kids-teenteen": {
+    "children": ["rich-text#kids-teenteen"]
+  },
+  "rich-text#kids-teenteen": {
+    "props": {
+      "text": "TEEN",
+      "blockClass": "trigger-movil"
+    }
+  },
+  "menu#kids-teenteen": {
+    "children": [
+      "rich-text#kid-teen",
+      "drawer#kids-teenteen-buscar",
+      "drawer#kids-teenteen-estilos",
+      "drawer#kids-teenteen-material",
+      "drawer#kids-teenteen-ahorra"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#kids-teenteen-buscar": {
+    "children": [
+      "menu#kids-teenteen-buscar"
+    ],
+    "blocks": ["drawer-trigger#buscar","drawer-header#volver"]
+  },
+  "menu#kids-teenteen-buscar": {
+    "children": [
+      "rich-text#kid-teen",
+      "rich-text#titulo-arriba",
+      "menu-item#category-kids-teen-arriba-Ver_todo",
+      "menu-item#category-kids-teen-arriba-Lo_mas_Vendido",
+      "menu-item#category-kids-teen-arriba-NuevosKids&Teen",
+      "menu-item#category-kids-teen-arriba-descuentos",
+      "rich-text#titulo-abajo",
+      "menu-item#category-kids-teen-abajo-vertodoinferior",
+      "menu-item#category-kids-teen-abajo-nuevosinferior",
+      "menu-item#category-kids-teen-abajo-descuentosinferior"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+
+  //
+  "drawer#kids-teenteen-estilos": {
+    "children": ["menu#kids-teenteen-estilos"],
+    "blocks": ["drawer-trigger#estilos","drawer-header#volver"]
+  },
+  "menu#kids-teenteen-estilos": {
+    "children": [
+      "rich-text#kid-teen",
+      "rich-text#titulo-arriba",
+      "menu-item#category-kids-teen-arriba-sin-copa",
+      "menu-item#category-kids-teen-arriba-copa-removible",
+      "menu-item#category-kids-teen-arriba-con-copa",
+      "menu-item#category-kids-teen-arriba-bustier",
+      "menu-item#category-kids-teen-arriba-strapless",
+      "menu-item#category-kids-teen-arriba-surtido",
+      "menu-item#category-kids-teen-arriba-sin-varilla",
+      "rich-text#titulo-abajo",
+      "menu-item#category-kids-teen-abajo-bikini",
+      "menu-item#category-kids-teen-abajo-boxer",
+      "menu-item#category-kids-teen-abajo-clasico",
+      "menu-item#category-kids-teen-abajo-hipster",
+      "menu-item#category-kids-teen-abajo-surtido-inferior"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#kids-teenteen-material": {
+    "children": ["menu#kids-teenteen-material"],
+    "blocks": ["drawer-trigger#material","drawer-header#volver"]
+  },
+  "menu#kids-teenteen-material": {
+    "children": [
+      "rich-text#kid-teen",
+      "rich-text#titulo-arriba",
+      "menu-item#category-kids-teen-arriba-algodon",
+      "menu-item#category-kids-teen-arriba-microfibra",
+      "menu-item#category-kids-teen-arriba-seamless",
+      "menu-item#category-kids-teen-arriba-surtido-teen-arriba",
+      "rich-text#titulo-abajo",
+      "menu-item#category-kids-teen-abajo-algodon-inferior",
+      "menu-item#category-kids-teen-abajo-microfibra-inferior",
+      "menu-item#category-kids-teen-abajo-seamless-inferior",
+      "menu-item#category-kids-teen-abajo-surtido-inferior-teen-abajo"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#kids-teenteen-ahorra": {
+    "children": ["menu#kids-teenteen-ahorra"],
+    "blocks": ["drawer-trigger#ahorra","drawer-header#volver"]
+  },
+  "menu#kids-teenteen-ahorra": {
+    "children": [
+      "rich-text#kid-teen",
+      "rich-text#titulo-arriba",
+      "menu-item#category-kids-teen-arriba-Individual",
+      "menu-item#category-kids-teen-arriba-paquete-x2",
+      "rich-text#titulo-abajo",
+      "menu-item#category-kids-teen-abajo-Individual-inferior",
+      "menu-item#category-kids-teen-abajo-paquete-x2-inferior",
+      "menu-item#category-kids-teen-abajo-paquete-x3-inferior",
+      "menu-item#category-kids-teen-abajo-paquete-x4-inferior",
+      "menu-item#category-kids-teen-abajo-semanario-inferior"
+
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#descanso": {
+    "children": [
+      "menu#descanso"
+    ],
+    "blocks": ["drawer-trigger#descanso","drawer-header#menuprincipal"]
+  },
+  "drawer-trigger#descanso": {
+    "children": ["rich-text#descanso"]
+  },
+  "rich-text#descanso": {
+    "props": {
+      "text": "DESCANSO Y MULTIUSOS",
+      "blockClass": "trigger-movil"
+    }
+  },
+  "rich-text#descansos": {
+    "props": {
+      "text": "DESCANSO Y MULTIUSOS",
+      "blockClass": "textosYoi"
+    }
+  },
+
+  "menu#descanso": {
+    "children": [
+      "rich-text#descansos",
+      "drawer#descanso-buscar",
+      "drawer#descanso-estilos",
+      "drawer#descanso-material",
+      "drawer#descanso-ahorra"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#descanso-buscar": {
+    "children": ["menu#descanso-buscar"],
+    "blocks": ["drawer-trigger#buscar","drawer-header#volver"]
+  },
+  "menu#descanso-buscar": {
+    "children": [
+      "rich-text#descansos",
+      "menu-item#category-descanso-Ver_todo",
+      "menu-item#category-descanso-Los-más-Vendidos",
+      "menu-item#category-descanso-Nuevos-Descanso",
+      "menu-item#category-descanso-Ofertas"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+
+  //
+  "drawer#descanso-estilos": {
+    "children": ["menu#descanso-estilos"],
+    "blocks": ["drawer-trigger#estilos","drawer-header#volver"]
+  },
+  "menu#descanso-estilos": {
+    "children": [
+      "rich-text#descansos",
+      "menu-item#category-descanso-Conjuntos-de-pijama",
+      "menu-item#category-descanso-Prendas-de-pijama",
+      "menu-item#category-descanso-Conjuntos-con-tops-de-tirantes-finos",
+      "menu-item#category-descanso-Camisas-de-dormir-y-camisones",
+      "menu-item#category-descanso-Pantalon",
+      "menu-item#category-descanso-Buso",
+      "menu-item#category-descanso-Camiseta",
+      "menu-item#category-descanso-multiuso-Pantalon"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#descanso-material": {
+    "children": ["menu#descanso-material"],
+    "blocks": ["drawer-trigger#material","drawer-header#volver"]
+  },
+  "menu#descanso-material": {
+    "children": [
+      "rich-text#descansos",
+      "menu-item#category-descanso-Algodon",
+      "menu-item#category-descanso-Modal",
+      "menu-item#category-descanso-Encaje",
+      "menu-item#category-descanso-Tejido-Plano",
+      "menu-item#category-descanso-Satin",
+      "menu-item#category-descanso-Tiras",
+      "menu-item#category-descanso-Manga-Sisa",
+      "menu-item#category-descanso-Manga-Corta",
+      "menu-item#category-descanso-Manga-Larga",
+      "menu-item#category-descanso-Pantalon-Corto",
+      "menu-item#category-descanso-Pantalon-Capri",
+      "menu-item#category-descanso-Pantalon-Largo"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#descanso-ahorra": {
+    "children": ["menu#descanso-ahorra"],
+    "blocks": ["drawer-trigger#ahorra","drawer-header#volver"]
+  },
+  "menu#descanso-ahorra": {
+    "children": [
+      "rich-text#descansos",
+      "menu-item#category-medias-Individual",
+      "menu-item#category-medias-Paquete-x-2",
+      "menu-item#category-medias-Paquete-x-3",
+      "menu-item#category-medias-Paquete-x-4",
+      "menu-item#category-medias-Semanario"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#medias": {
+    "children": [
+      "menu#medias"
+    ],
+    "blocks": ["drawer-trigger#medias","drawer-header#menuprincipal"]
+  },
+  "drawer-trigger#medias": {
+    "children": ["rich-text#medias"]
+  },
+  "rich-text#medias": {
+    "props": {
+      "text": "MEDIAS",
+      "blockClass": "trigger-movil"
+    }
+  },
+  "rich-text#media": {
+    "props": {
+      "text": "MEDIAS",
+      "blockClass": "textosYoi"
+    }
+  },
+  "menu#medias": {
+    "children": [
+      "rich-text#media",
+      "drawer#medias-buscar",
+      "drawer#medias-estilos",
+      "drawer#medias-material",
+      "drawer#medias-ahorra"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#medias-buscar": {
+    "children": ["menu#medias-buscar"],
+    "blocks": ["drawer-trigger#buscar","drawer-header#volver"]
+  },
+  "menu#medias-buscar": {
+    "children": [
+      "rich-text#media",
+      "menu-item#category-medias-Ver_todo",
+      "menu-item#category-medias-Los-más-Vendidos",
+      "menu-item#category-medias-Nuevos-medias",
+      "menu-item#category-medias-Ofertas"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+
+  //
+  "drawer#medias-estilos": {
+    "children": ["menu#medias-estilos"],
+    "blocks": ["drawer-trigger#estilos","drawer-header#volver"]
+  },
+  "menu#medias-estilos": {
+    "children": [
+      "rich-text#media",
+      "menu-item#category-medias-pantumedias",
+      "menu-item#category-medias-tobilleras",
+      "menu-item#category-medias-termicas",
+      "menu-item#category-medias-baletas",
+      "menu-item#category-medias-clasico",
+      "menu-item#category-medias-veladas",
+      "menu-item#category-medias-taloneras"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#medias-material": {
+    "children": ["menu#medias-material"],
+    "blocks": ["drawer-trigger#material","drawer-header#volver"]
+  },
+  "menu#medias-material": {
+    "children": [
+      "rich-text#media",
+      "menu-item#category-medias-Algodon",
+      "menu-item#category-medias-Microfibra",
+      "menu-item#category-medias-Blonda"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#medias-ahorra": {
+    "children": ["menu#medias-ahorra"],
+    "blocks": ["drawer-trigger#ahorra","drawer-header#volver"]
+  },
+  "menu#medias-ahorra": {
+    "children": [
+      "rich-text#media",
+      "menu-item#category-medias-Individual",
+      "menu-item#category-medias-Paquete-x-2",
+      "menu-item#category-medias-Paquete-x-3",
+      "menu-item#category-medias-Paquete-x-4",
+      "menu-item#category-medias-Semanario"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+
+  //
+  "drawer#deportivo": {
+    "children": [
+      "menu#deportivo"
+    ],
+    "blocks": ["drawer-trigger#deportivo","drawer-header#menuprincipal"]
+  },
+  "drawer-trigger#deportivo": {
+    "children": ["rich-text#deportivo"]
+  },
+  "rich-text#deportivo": {
+    "props": {
+      "text": "DEPORTIVO",
+      "blockClass": "trigger-movil"
+    }
+  },
+  "rich-text#deportivos": {
+    "props": {
+      "text": "DEPORTIVOS",
+      "blockClass": "textosYoi"
+    }
+  },
+  "menu#deportivo": {
+    "children": [
+      "rich-text#deportivos",
+      "drawer#deportivo-buscar",
+      "drawer#deportivo-estilos",
+      "drawer#deportivo-material"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#deportivo-buscar": {
+    "children": ["menu#deportivo-buscar"],
+    "blocks": ["drawer-trigger#buscar","drawer-header#volver"]
+  },
+  "menu#deportivo-buscar": {
+    "children": [
+      "rich-text#deportivos",
+      "menu-item#category-deportivo-Ver_todo",
+      "menu-item#category-deportivo-Los-más-Vendidos",
+      "menu-item#category-deportivo-Nuevos-deportivo",
+      "menu-item#category-deportivo-Ofertas"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+
+  //
+  "drawer#deportivo-estilos": {
+    "children": ["menu#deportivo-estilos"],
+    "blocks": ["drawer-trigger#estilos","drawer-header#volver"]
+  },
+  "menu#deportivo-estilos": {
+    "children": [
+      "rich-text#deportivos",
+      "menu-item#category-deportivo-camiseta",
+      "menu-item#category-deportivo-chaqueta",
+      "menu-item#category-deportivo-pantalon",
+      "menu-item#category-deportivo-tops",
+      "menu-item#category-deportivo-pantaloneta",
+      "menu-item#category-deportivo-leggins"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#deportivo-material": {
+    "children": ["menu#deportivo-material"],
+    "blocks": ["drawer-trigger#material"]
+  },
+  "menu#deportivo-material": {
+    "children": [
+      "rich-text#deportivos",
+      "menu-item#category-deportivo-Baile",
+      "menu-item#category-deportivo-Yoga-Pilates",
+      "menu-item#category-deportivo-Correr-Trotar"
+
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#vestidos": {
+    "children": [
+      "menu#vestidos"
+    ],
+    "blocks": ["drawer-trigger#vestidos","drawer-header#menuprincipal"]
+  },
+  "drawer-trigger#vestidos": {
+    "children": ["rich-text#vestidos"]
+  },
+  "rich-text#vestidos": {
+    "props": {
+      "text": "VESTIDOS DE BAÑO",
+      "blockClass": "trigger-movil"
+    }
+  },
+  "rich-text#vestido": {
+    "props": {
+      "text": "VESTIDOS DE BAÑO",
+      "blockClass": "textosYoi"
+    }
+  },
+  "menu#vestidos": {
+    "children": [
+      "rich-text#vestido",
+      "drawer#vestidos-buscar",
+      "drawer#vestidos-estilos",
+      "drawer#vestidos-material"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#vestidos-buscar": {
+    "children": ["menu#vestidos-buscar"],
+    "blocks": ["drawer-trigger#buscar","drawer-header#volver"]
+  },
+  "menu#vestidos-buscar": {
+    "children": [
+      "rich-text#vestido",
+      "menu-item#category-vestidos-Ver_todo",
+      "menu-item#category-vestidos-Los-más-Vendidos",
+      "menu-item#category-vestidos-Nuevos-deportivo",
+      "menu-item#category-vestidos-Ofertas"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+
+  //
+  "drawer#vestidos-estilos": {
+    "children": ["menu#vestidos-estilos"],
+    "blocks": ["drawer-trigger#estilos","drawer-header#volver"]
+  },
+  "menu#vestidos-estilos": {
+    "children": [
+      "rich-text#vestido",
+      "menu-item#category-vestidos-Bikinis",
+      "menu-item#category-vestidos-Enterizos",
+      "menu-item#category-vestidos-Prendas-playeras",
+      "menu-item#category-vestidos-Control-de-Abdomen",
+      "menu-item#category-vestidos-Alto"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#vestidos-material": {
+    "children": ["menu#vestidos-material"],
+    "blocks": ["drawer-trigger#material","drawer-header#volver"]
+  },
+  "menu#vestidos-material": {
+    "children": [
+      "rich-text#vestido",
+      "menu-item#category-vestidos-Prenda-inferior",
+      "menu-item#category-vestidos-Prenda-Colaless",
+      "menu-item#category-vestidos-Prenda-Brasileras",
+      "menu-item#category-vestidos-Prenda-De-tiras"
+
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#belleza": {
+    "children": [
+      "menu#belleza"
+    ],
+    "blocks": ["drawer-trigger#belleza","drawer-header#menuprincipal"]
+  },
+  "drawer-trigger#belleza": {
+    "children": ["rich-text#belleza"]
+  },
+  "rich-text#belleza": {
+    "props": {
+      "text": "BELLEZA",
+      "blockClass": "trigger-movil"
+    }
+  },
+  "rich-text#bellezas": {
+    "props": {
+      "text": "BELLEZA",
+      "blockClass": "textosYoi"
+    }
+  },
+  "menu#belleza": {
+    "children": [
+      "rich-text#bellezas",
+      "drawer#belleza-buscar",
+      "drawer#belleza-estilos"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#belleza-buscar": {
+    "children": ["menu#belleza-buscar"],
+    "blocks": ["drawer-trigger#buscar","drawer-header#volver"]
+  },
+  "menu#belleza-buscar": {
+    "children": [
+      "rich-text#bellezas",
+      "menu-item#category-belleza-Ver_todo",
+      "menu-item#category-belleza-Los-más-Vendidos",
+      "menu-item#category-belleza-Nuevos-Brasieres-y-Bralettes",
+      "menu-item#category-bellezas-Ofertas"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+
+  //
+  "drawer#belleza-estilos": {
+    "children": ["menu#belleza-estilos"],
+    "blocks": ["drawer-trigger#estilos","drawer-header#volver"]
+  },
+  "menu#belleza-estilos": {
+    "children": [
+      "rich-text#bellezas",
+      "menu-item#category-belleza-Accesorios-Maquillaje",
+      "menu-item#category-belleza-Cuidado-Bucal",
+      "menu-item#category-belleza-Cuidado-Cabello",
+      "menu-item#category-belleza-Cuidado-Corporal",
+      "menu-item#category-belleza-Cuidado-Facial",
+      "menu-item#category-belleza-Fragancias",
+      "menu-item#category-belleza-Manos-Pies",
+      "menu-item#category-belleza-Maquillaje",
+      "menu-item#category-belleza-Prevencion-Cuidado"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#outlet": {
+    "children": [
+      "menu#outlet"
+    ],
+    "blocks": ["drawer-trigger#outlet","drawer-header#menuprincipal"]
+  },
+  "drawer-trigger#outlet": {
+    "children": ["rich-text#outlet"]
+  },
+  "rich-text#outlet": {
+    "props": {
+      "text": "OUTLET",
+      "blockClass": "trigger-movil"
+    }
+  },
+  "rich-text#outlets": {
+    "props": {
+      "text": "OUTLET",
+      "blockClass": "textosYoi"
+    }
+  },
+  "menu#outlet": {
+    "children": [
+      "rich-text#outlets",
+      "menu-item#category-outlet-brasieres",
+      "menu-item#category-outlet-panties",
+      "menu-item#category-outlet-juguetes",
+      "menu-item#category-outlet-hogar",
+      "menu-item#category-outlet-pijamas",
+      "menu-item#category-outlet-belleza",
+      "menu-item#category-outlet-deportivo",
+      "menu-item#category-outlet-vestidoDeBano"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#bioseguridad": {
+    "children": [
+      "menu#bioseguridad"
+    ],
+    "blocks": ["drawer-trigger#bioseguridad","drawer-header#menuprincipal"]
+  },
+  "drawer-trigger#bioseguridad": {
+    "children": ["rich-text#bioseguridad"]
+  },
+  "rich-text#bioseguridad": {
+    "props": {
+      "text": "BIOSEGURIDAD",
+      "blockClass": "trigger-movil"
+    }
+  },
+
+  "rich-text#bioseguridades": {
+    "props": {
+      "text": "BIOSEGURIDAD",
+      "blockClass": "textosYoi"
+    }
+  },
+  "menu#bioseguridad": {
+    "children": [
+      "rich-text#bioseguridades",
+      "drawer#bioseguridad-buscar",
+      "drawer#bioseguridad-estilos"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+  //
+  "drawer#bioseguridad-buscar": {
+    "children": ["menu#bioseguridad-buscar"],
+    "blocks": ["drawer-trigger#buscar","drawer-header#volver"]
+  },
+  "menu#bioseguridad-buscar": {
+    "children": [
+      "rich-text#bioseguridades",
+      "menu-item#category-bioseguridad-Ver_todo",
+      "menu-item#category-bioseguridad-Los-más-Vendidos",
+      "menu-item#category-bioseguridad-Nuevos",
+      "menu-item#category-bioseguridad-Ofertas"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  },
+
+  //
+  "drawer#bioseguridad-estilos": {
+    "children": ["menu#bioseguridad-estilos"],
+    "blocks": ["drawer-trigger#estilos","drawer-header#volver"]
+  },
+  "menu#bioseguridad-estilos": {
+    "children": [
+      "rich-text#bioseguridades",
+      "menu-item#category-bioseguridad-Tapabocas",
+      "menu-item#category-bioseguridad-Proteccion",
+      "menu-item#category-bioseguridad-Gel-Antibacterial",
+      "menu-item#category-bioseguridad-Medicion-de-Temperatura"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-movil"
+    }
+  }
+
+
+}

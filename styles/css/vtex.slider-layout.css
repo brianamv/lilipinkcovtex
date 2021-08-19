@@ -1,0 +1,43 @@
+.sliderLayoutContainer {
+  justify-content: center;
+}
+.sliderLayoutContainer--carousel {
+  background-color: white;
+  margin-bottom: 2%;
+}
+.imageElementLink--carousel{
+  width: 100%;
+}
+
+.sliderTrackContainer {
+  max-width: 100% !important;
+}
+/* carrusel guia de tallas */
+.sliderTrackContainer .slideChildrenContainer--carouseltips {
+  max-width: 900px !important;
+  margin: 0 auto;
+}
+/* carrusel home full width */
+.sliderTrackContainer .slideChildrenContainer--carousel :global(.vtex-store-components-3-x-imageElement) {
+  width: 100% !important;
+}
+
+.paginationDotsContainer {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+.slide--shelf :global(.vtex-add-to-cart-button)  {
+  color: aqua !important;
+}

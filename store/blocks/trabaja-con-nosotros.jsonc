@@ -1,0 +1,165 @@
+{
+  "store.custom.trabaja-con-nosotros": {
+    "blocks": [
+      "image#bannerwhatappsa",
+      "flex-layout.row#tiendas2a",
+      "flex-layout.row#imagenesVacantes",
+      "flex-layout.row#vacantesa",
+      "flex-layout.row#clic-vacante1"
+
+
+
+
+    ]
+  },
+
+  "image#bannerwhatappsa": {
+    "props": {
+      "src": "assets/banner_trabaja.png",
+      "width": "100%"
+
+    }
+  },
+  "flex-layout.row#tiendas2a": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "margenLanding"
+    },
+    "children": [
+      "image#bannertrabaja2a"
+    ]
+  },
+
+  "image#bannertrabaja2a": {
+    "props": {
+      "src": "assets/banner-trabaja-2.png"
+
+    }
+  },
+  /**/
+  "flex-layout.row#imagenesVacantes": {
+    "props": {
+      "blockClass": "margenLanding"
+    },
+    "children": [
+      "flex-layout.col#bloquetiendas1",
+      "flex-layout.col#espacio-banners",
+      "flex-layout.col#bloquetiendas2",
+      "flex-layout.col#espacio-banners",
+      "flex-layout.col#bloquetiendas3"
+    ]
+  },
+  "flex-layout.col#bloquetiendas1": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#bloquetiendas1",
+      "rich-text#bloquetiendas1"
+    ]
+  },
+  "image#bloquetiendas1": {
+    "props": {
+      "src": "assets/trabaja-con-nosotros/trabaja1.jpg",
+      "width": 500
+    }
+  },
+  "rich-text#bloquetiendas1": {
+    "props": {
+      "blockClass": "texto-landing",
+      "text": "**Nuestros colaboradores son el factor clave del éxito de la empresa.**"
+    }
+  },
+  "flex-layout.col#bloquetiendas2": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#bloquetiendas2",
+      "rich-text#bloquetiendas2"
+    ]
+  },
+  "image#bloquetiendas2": {
+    "props": {
+      "src": "assets/trabaja-con-nosotros/trabaja2.jpg",
+      "width": 500
+    }
+  },
+  "rich-text#bloquetiendas2": {
+    "props": {
+      "blockClass": "texto-landing",
+      "text": "**Al trabajar en Pink Life podrás lograr vivir una experiencia llena de éxitos y lograrás una oportunidad de crecimiento personal y profesional.**"
+    }
+  },
+  "flex-layout.col#bloquetiendas3": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#bloquetiendas3",
+      "rich-text#bloquetiendas3"
+    ]
+  },
+  "image#bloquetiendas3": {
+    "props": {
+      "src": "assets/trabaja-con-nosotros/trabaja3.jpg",
+      "width": 500
+    }
+  },
+  "rich-text#bloquetiendas3": {
+    "props": {
+      "blockClass": "texto-landing",
+      "text": "**Juntos construiremos una Compañía cada vez más fuerte en el mercado.**"
+    }
+  },
+  "flex-layout.row#tiendas3a": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "margenLanding"
+    },
+    "children": [
+      "flex-layout.col#tiendas3a"
+    ]
+  },
+  "flex-layout.col#tiendas3a": {
+    "children": [
+      "rich-text#Info-trabajaa",
+      "image#bannertrabaja3a"
+    ]
+  },
+
+  "image#bannertrabaja3a": {
+    "props": {
+      "src": "assets/lilipink-trabajo-con-nosotros-4.png",
+      "width": 1520
+
+    }
+  },
+  "flex-layout.row#vacantesa":{
+    "children":[
+      "flex-layout.col#vacantesa"
+    ]
+  },
+  "flex-layout.col#vacantesa":{
+    "children":[
+      "rich-text#vacantesa",
+      "rich-text#Info-trabajaa"
+    ]
+  },
+  "rich-text#vacantesa": {
+    "props": {
+      "text": "NUESTRAS VACANTES ",
+      "blockClass": "Vacantes"
+    }
+  },
+  "rich-text#Info-trabajaa": {
+    "props": {
+      "blockClass": "texto-landing",
+      "text": "En Lili Pink creémos que lo que nos hace diferente son nuestros colaboradores, si estás interesado en trabajar con nosotros te invitamos a que te postules a nuestras vacantes y nos envies tu hoja de vida. "
+
+    }
+  }
+
+}

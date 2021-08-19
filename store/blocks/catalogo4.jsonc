@@ -1,0 +1,33 @@
+{
+    "store.custom.catalogo-4": {
+      "blocks": [
+        "flex-layout.row#catalogo4"
+  
+      ]
+    },
+    "flex-layout.row#catalogo4": {
+      "children": [
+        "flex-layout.col#catalogo4"
+      ],
+      "props": {
+        "marginTop": 8,
+        "marginBottom": 8
+      }
+    },
+    "flex-layout.col#catalogo4": {
+      "children": [
+        "iframe#catalogo4"
+      ]
+    },
+  
+    "iframe#catalogo4": {
+      "props": {
+        "src": "https://viewer.ipaper.io/pink-life-sas/2021/lili-yoi-catalogo-22",
+        "width": "1000",
+        "height": "800",
+        "title": "exampleStaticPageName iframe wrapper for {account}"
+      }
+    }
+  
+  }
+  

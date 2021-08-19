@@ -1,0 +1,130 @@
+
+.profile{
+    color: #000;
+}
+.profile:hover{
+    color: #e4147e;
+
+}
+.label{
+    padding-left: 0px;
+}
+.accessCodeOptionBtn :global(.vtex-button){
+    text-align: left;
+}
+.emailPasswordOptionBtn :global(.vtex-button){
+    text-align: left;
+}
+.googleOptionBtn :global(.vtex-button){
+    text-align: left;
+}
+.facebookOptionBtn :global(.vtex-button){
+    text-align: left;
+}
+
+.accessCodeOptionBtn :global(.vtex-button)::before{
+    content: "\e902";
+    font-size: 1.5rem;
+    font-family: iconos-login;
+    color: #e4147e;
+    position: absolute;
+    margin-left: 10px;
+}
+.emailPasswordOptionBtn :global(.vtex-button)::before{
+    content: "\e903";
+    font-size: 1.5rem;
+    font-family: iconos-login;
+    color: #e4147e;
+    position: absolute;
+    margin-left: 10px;
+}
+.formTitle::before{
+    content: "\e904";
+    font-size: 1.3rem;
+    font-family: iconos-login;
+    color: #979899;
+    /*position: absolute;
+    margin-left: 10px;*/
+    margin-right: 10px;
+}
+.formTitle::after{
+    content: "ELIGE UNA OPCIÓN PARA ENTRAR";
+    font-size: 16px;
+    color: #979899;
+    /*position: absolute;
+    margin-left: 10px;
+    margin-right: 10px;*/
+}
+.formTitle{
+    background-color: #f4f4f4;
+    color: #979899;
+    text-transform: uppercase;
+    font-size: 0px;
+    text-align: left;
+}
+.contentInitialScreen{
+    width: max-content;
+}
+.options :global(.vtex-button__label){
+    margin-top: 2px;
+    margin-left: 25px;
+    text-transform: none;
+    color: #979899;
+    justify-content: left;
+}
+.sendButton :global(.vtex-button){
+    border: none;
+    border: solid 1px #000;
+
+}
+.googleOptionBtn :global(.vtex-button__label) {
+    display: none;
+}
+.facebookOptionBtn :global(.vtex-button__label) {
+    display: none;
+}
+.googleOptionBtn :global(.vtex-button)::before {
+    content: "\e901";
+    font-size: 1.5rem;
+    font-family: iconos-login;
+    color: #e4147e;
+    margin-left: 11px;
+}
+.googleOptionBtn :global(.vtex-button)::after {
+    content: "Ingresar con Google";
+    font-size: 16px;
+    color: #979899;
+    text-transform: none;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 6px;
+}
+.facebookOptionBtn :global(.vtex-button)::before {
+    content: "\e900";
+    font-size: 1.5rem;
+    font-family: iconos-login;
+    color: #e4147e;
+    margin-left: 11px;
+}
+.facebookOptionBtn :global(.vtex-button)::after {
+    content: "Ingresar con Facebook";
+    font-size: 16px;
+    color: #979899;
+    text-transform: none;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 6px;
+}
+.content--emailVerification{
+    display: block;
+}
+.termsAndConditions :global(a){
+    color: #000;
+    font-family: 'Monserrat-bold';
+    text-decoration: none;
+}
+@media screen and (max-width:900px) {
+    .contentInitialScreen{
+        width: 100%;
+    }
+}

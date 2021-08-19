@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Monserrat-semibold';
+  src: url(assets/fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: 'Monserrat-regular';
+  src: url(assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Monserrat-bold';
+  src: url(assets/fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: 'iconos-login';
+  src: url(assets/fonts/iconos-login.woff);
+}
+@font-face {
+  font-family: 'iconos-extra';
+  src: url(assets/fonts/iconos-extra.woff);
+}

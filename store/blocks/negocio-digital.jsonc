@@ -1,0 +1,650 @@
+{
+  "store.custom.negocio-digital": {
+    "props": {
+      "marginTop": 6,
+      "marginBottom": 6
+    },
+    "blocks": [
+      "list-context.image-list#BannerNegocio",
+      "flex-layout.row#BannerNegocio",
+      "flex-layout.row#BannerNegocio1",
+      "flex-layout.row#NuestraMembresia",
+      "flex-layout.row#NuestrosBeneficios",
+      "flex-layout.row#testimoniosnegociodigital",
+      "flex-layout.row#ultimasediciones",
+      "flex-layout.row#catalogo",
+      "flex-layout.row#siguenos",
+      "flex-layout.row#redessocialesnegocio"
+
+    ]
+  },
+  "list-context.image-list#BannerNegocio": {
+    "children": ["slider-layout#BannerNegocio"],
+    "props": {
+      "height": 720,
+      "images": [{
+          "src": "assets/negocio-digital/banner1f.jpg",
+
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "src": "assets/negocio-digital/banner2f.jpg",
+          "mobileImage": "https://w.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "src": "assets/negocio-digital/banner3f.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "src": "assets/BannersMainSlider/sh4.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#BannerNegocio": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+  "flex-layout.row#BannerNegocio": {
+    "props": {
+      "blockClass": "margenLanding"
+    },
+    "children": [
+      "flex-layout.col#BannerNegocio"
+    ]
+  },
+  "flex-layout.col#BannerNegocio": {
+
+    "children": [
+
+      "image#descubre",
+      "rich-text#DescubreElEncanto",
+      "rich-text#Esmomentoquedeselprimerpaso",
+      "rich-text#TúPonesLaActitud",
+      "image#familia"
+
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true,
+      "horizontalAlign": "center"
+    }
+  },
+  "image#descubre": {
+    "props": {
+      "src": "assets/negocio-digital/descubre-f.jpg"
+
+    }
+  },
+  "rich-text#DescubreElEncanto": {
+    "props": {
+      "text": "Lili Pink & Yoi tienen un plan de negocio 100% digital sin restricción de horario y lugar, representando dos marcas hechas con el corazón, que traen a los colombianos la mejor selección de productos innovadores, a la moda y con precios justos. :",
+      "blockClass": "texto-landing-center"
+    }
+  },
+  "rich-text#Esmomentoquedeselprimerpaso": {
+    "props": {
+      "text": "Es momento que des el primer paso",
+      "textPosition": "CENTER",
+      "blockClass": "TituloCambiosYoi2"
+    }
+  },
+  "rich-text#TúPonesLaActitud": {
+    "props": {
+      "text": "Tú pones la actitud, nosotros la experiencia",
+      "textPosition": "CENTER",
+      "blockClass": "TituloCambiosLilipink2"
+    }
+  },
+  "image#familia": {
+    "props": {
+      "src": "assets/negocio-digital/familia-f.jpg"
+
+    }
+  },
+  "flex-layout.row#BannerNegocio1": {
+    "props": {
+      "blockClass": "margenLanding",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#paso1negocio",
+      "image#paso2negocio",
+      "image#paso3negocio"
+    ]
+  },
+  "flex-layout.col#BannerNegocio1": {
+
+    "children": [
+      "image#paso1negocio"
+
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#BannerNegocio2": {
+
+    "children": [
+      "image#paso2negocio"
+
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#BannerNegocio3": {
+
+    "children": [
+      "image#paso3negocio"
+
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#paso1negocio": {
+    "props": {
+      "src": "assets/negocio-digital/paso1negocio.jpg",
+      "width": 400
+
+    }
+  },
+  "image#paso2negocio": {
+    "props": {
+      "src": "assets/negocio-digital/paso2negocio.jpg",
+      "width": 400
+
+    }
+  },
+  "image#paso3negocio": {
+    "props": {
+      "src": "assets/negocio-digital/paso3negocio.jpg",
+      "width": 400
+
+    }
+  },
+  "flex-layout.row#NuestraMembresia": {
+    "props": {
+      "blockClass": "margenLanding"
+    },
+    "children": [
+      "flex-layout.col#NuestraMembresia"
+    ]
+  },
+  "flex-layout.col#NuestraMembresia": {
+    "props": {
+      "blockClass": "membresia-negocio",
+      "preventVerticalStretch": true,
+      "horizontalAlign": "center",
+      "width": "100%"
+    },
+    "children": [
+      "image#NuestraMembresia",
+      "image#InfoNuestraMembresia"
+
+    ]
+
+  },
+  "image#NuestraMembresia": {
+    "props": {
+      "src": "assets/negocio-digital/membresia.jpg",
+      "width": 700
+
+    }
+  },
+  "image#InfoNuestraMembresia": {
+    "props": {
+      "src": "assets/negocio-digital/bene-f4.jpg",
+      "width": "100%"
+
+    }
+  },
+  "flex-layout.row#NuestrosBeneficios": {
+    "props": {
+      "blockClass": "margenLanding"
+    },
+    "children": [
+      "flex-layout.col#NuestrosBeneficios"
+    ]
+  },
+  "flex-layout.col#NuestrosBeneficios": {
+
+    "children": [
+      "image#NuestrosBeneficios",
+      "tab-layout#Privacidad"
+
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true,
+      "horizontalAlign": "center"
+
+    }
+  },
+  "image#NuestrosBeneficios": {
+    "props": {
+      "src": "assets/negocio-digital/beneficios.jpg",
+      "width": 700
+
+    }
+  },
+  "tab-layout#Privacidad": {
+
+    "children": [
+      "tab-list#Privacidad",
+      "tab-content#privacidadcontent"
+    ]
+  },
+  "tab-list#Privacidad": {
+    "props": {
+      "blockClass": "negocio-digital"
+    },
+    "children": [
+      "tab-list.item#negociodigital",
+      "tab-list.item#adn",
+      "tab-list.item#catalogo"
+    ]
+  },
+  "tab-list.item#negociodigital": {
+    "props": {
+      "tabId": "negociodigital",
+      "label": "NEGOCIO DIGITAL",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#adn": {
+    "props": {
+      "tabId": "adn",
+      "label": "NUESTRO ADN"
+    }
+  },
+  "tab-list.item#catalogo": {
+    "props": {
+      "tabId": "catalogo",
+      "label": "CATÁLOGO"
+    }
+  },
+  "tab-content#privacidadcontent": {
+    "props":{
+      "blockClass":"negocio-digital"
+    },
+    "children": [
+      "tab-content.item#negociodigital",
+      "tab-content.item#adn",
+      "tab-content.item#catalogo"
+      
+
+    ]
+  },
+  "tab-content.item#negociodigital": {
+    "children": [
+      "flex-layout.row#negociodigital"
+
+    ],
+    "props": {
+      "tabId": "negociodigital"
+    }
+  },
+  "flex-layout.row#negociodigital": {
+    "props": {
+      "preventHorizontalStretch": false
+    },
+    "children": [
+      "flex-layout.col#NegocioDigital",
+      "flex-layout.col#NegocioDigitalcontent"
+    ]
+  },
+  "flex-layout.col#NegocioDigital": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+
+    "children": [
+      "image#NegocioDigital"
+
+    ]
+  },
+  "image#NegocioDigital": {
+    "props": {
+      "src": "assets/negocio-digital/tab1.jpg"
+
+    }
+  },
+  "flex-layout.col#NegocioDigitalcontent": {
+    "props": {
+      "verticalAlign": "middle",
+      "paddingRight":7,
+      "paddingLeft":5
+    },
+
+    "children": [
+      "rich-text#neogciodigital"
+
+    ]
+  },
+  "rich-text#neogciodigital": {
+    "props": {
+      "text": "- Administra tu negocio desde cualquier lugar sin restricción de horario\n- No te compliques con la gestión de entrega de las ventas, nosotros lo hacemos por tí\n- Recibe cada quince días un catálogo que te ayudará a estimular la venta\n- No tendrás necesidad de hacer cobros a tus clientes o tener un capital propio para hacer pagos por anticipado de los productos, tus clientes pagan directamente en tu negocio digital\n- Puedes vender en todo el territorio nacional gracias a nuestra cobertura\n- Obtén el 20% de ganancia por las compras de tus clientes\n- Obtén el 20% de descuento en tus compras propias\n- Obtienes el 8% de ganancia por las compras de tus referidos directos\n- Disfruta de envíos gratis por pagos desde $59.900 ",
+      "blockClass": "texto-landing"
+    }
+  },
+  "tab-content.item#adn": {
+    "children": [
+      "flex-layout.row#adn"
+
+    ],
+    "props": {
+      "tabId": "adn"
+    }
+  },
+  "flex-layout.row#adn": {
+    "props": {
+      "preventHorizontalStretch": false
+    },
+    "children": [
+      "flex-layout.col#adnimage",
+      "flex-layout.col#adn"
+    ]
+  },
+  "flex-layout.col#adnimage": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+
+    "children": [
+      "image#adn"
+
+    ]
+  },
+  "image#adn": {
+    "props": {
+      "src": "assets/negocio-digital/tab2.jpg"
+
+    }
+  },
+  "flex-layout.col#adn": {
+    "props": {
+      "verticalAlign": "middle",
+      "paddingRight":7,
+      "paddingLeft":5
+    },
+
+    "children": [
+      "rich-text#adn"
+
+    ]
+  },
+  "rich-text#adn": {
+    "props": {
+      "text": "Durante muchos años hemos acompañado a millones de personas con productos fabricados con alta tecnología, innovación y moda. Brindando productos de calidad al mejor precio. Ahora, tú puedes hacer parte de esta familia con un negocio al alcance de tu mano.",
+      "blockClass": "texto-landing"
+    }
+  },
+  "tab-content.item#catalogo": {
+    "children": [
+      "flex-layout.row#catalogoNegocio"
+
+    ],
+    "props": {
+      "tabId": "catalogo"
+    }
+  },
+  "flex-layout.row#catalogoNegocio": {
+    "props": {
+      "preventHorizontalStretch": false
+    },
+    "children": [
+      "flex-layout.col#catalogoimage",
+      "flex-layout.col#catalogo"
+    ]
+  },
+  "flex-layout.col#catalogoimage": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+
+    "children": [
+      "image#catalogo"
+
+    ]
+  },
+  "image#catalogo": {
+    "props": {
+      "src": "assets/negocio-digital/tab3.jpg"
+
+    }
+  },
+  "flex-layout.col#catalogo": {
+    "props": {
+      "verticalAlign": "middle",
+      "paddingRight":7,
+      "paddingLeft":5
+    },
+
+    "children": [
+      "rich-text#catalogo"
+
+    ]
+  },
+  "rich-text#catalogo": {
+    "props": {
+      "text": "Deja de complicarte con revistas. Disfruta de un catálogo 100% virtual donde tus clientes pueden hacer los pedidos en tu Negocio Digital.\nAdicionalmente, cuentas con ediciones y productos nuevos cada ocho días, cobertura en el territorio nacional y los mejores precios de Lili Pink & Yoi",
+      "blockClass": "texto-landing"
+    }
+  },
+  "flex-layout.row#testimoniosnegociodigital": {
+    "props": {
+      "blockClass": "margenLanding"
+    },
+    "children": [
+      "flex-layout.col#testimoniosnegociodigital"
+    ]
+  },
+  "flex-layout.col#testimoniosnegociodigital": {
+
+    "children": [
+      "image#testimonios",
+      "flex-layout.row#testimonios"
+
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true,
+      "horizontalAlign": "center"
+
+    }
+  },
+  "image#testimonios": {
+    "props": {
+      "src": "assets/negocio-digital/testimonios.jpg",
+      "width": 700
+
+    }
+  },
+  "flex-layout.row#testimonios": {
+    "children": [
+      "image#infotestimonios1",
+      "flex-layout.col#espacio-banners2",
+      "image#infotestimonios2",
+      "flex-layout.col#espacio-banners2",
+      "image#infotestimonios3"
+    ]
+  },
+  "flex-layout.col#espacio-banners2": {
+    "props": {
+      "width": "25%"
+    }
+  },
+  
+  "image#infotestimonios1": {
+    "props": {
+      "src": "assets/negocio-digital/testimonio1.jpg",
+      "width": "100%"
+
+    }
+  },
+  "image#infotestimonios2": {
+    "props": {
+      "src": "assets/negocio-digital/testimonio2.jpg",
+      "width": "100%"
+
+    }
+  },
+  "image#infotestimonios3": {
+    "props": {
+      "src": "assets/negocio-digital/testimonio3.jpg",
+      "width": "100%"
+
+    }
+  },
+  "flex-layout.row#ultimasediciones": {
+    "props": {
+      "blockClass": "margenLanding"
+    },
+    "children": [
+      "flex-layout.col#ultimasediciones"
+    ]
+  },
+  "flex-layout.col#ultimasediciones": {
+
+    "children": [
+      "image#ultimasediciones"
+
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true,
+      "horizontalAlign": "center"
+
+    }
+  },
+  "image#ultimasediciones": {
+    "props": {
+      "src": "assets/negocio-digital/ediciones.jpg",
+      "width": 700
+
+    }
+  },
+  "flex-layout.row#siguenos": {
+    "props": {
+      "blockClass": "margenLanding"
+    },
+    "children": [
+      "flex-layout.col#siguenos"
+    ]
+  },
+  "flex-layout.col#siguenos": {
+
+    "children": [
+      "image#siguenos"
+
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true,
+      "horizontalAlign": "center"
+
+    }
+  },
+  "image#siguenos": {
+    "props": {
+      "src": "assets/negocio-digital/redes.jpg"
+
+    }
+  },
+
+  "flex-layout.row#redessocialesnegocio": {
+    "props": {
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#spacer",
+      "flex-layout.col#logoinstanegocio",
+      "rich-text#ignegocio",
+      "flex-layout.col#spacermini",
+      "flex-layout.col#logofacenegocio",
+      "rich-text#fbnegocio",
+      
+      "flex-layout.col#spacer"
+    ]
+  },
+  "flex-layout.col#spacermini": {
+    "props": {
+      "blockClass": "espaciado"
+    }
+  },
+  "flex-layout.col#logofacenegocio": {
+    "props": {
+      "blockClass": "logo1",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#logofacenegocio"
+    ]
+  },
+  "image#logofacenegocio": {
+    "props": {
+      "blockClass": "Imagenetiquetaredes",
+      "src": "assets/face-pink.png",
+      "link": {
+        "url": "https://www.facebook.com/lilipink.yoi.ss",
+        "openNewTab": true
+      }
+    }
+  },
+  "flex-layout.col#logoinstanegocio": {
+    "props": {
+      "blockClass": "logo2",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#logoinstanegocio"
+    ]
+  },
+  "image#logoinstanegocio": {
+    "props": {
+      "blockClass": "Imagenetiquetaredes-i",
+      "src": "assets/insta-pink.png",
+      "link": {
+        "url": "https://www.facebook.com/lilipink.yoi.ss",
+        "openNewTab": true
+      }
+    }
+  },
+  "rich-text#fbnegocio": {
+    "props": {
+      "blockClass": "texto-redes",
+      "text": "[@Lilipink.Yoi.ss](https://www.facebook.com/LiliPinkColombia)"
+    }
+  },
+  "rich-text#ignegocio": {
+    "props": {
+      "blockClass": "texto-redes",
+      "text": "[Lilipink.Yoi.Ventasdig](https://www.instagram.com/lilipink.yoi.ventasdig/)"
+    }
+  }
+
+
+
+
+  
+
+}
